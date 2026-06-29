@@ -1,0 +1,229 @@
+
+<style>
+  .pt-wrap { padding: 1.5rem 0; font-family: var(--font-sans); }
+  .pt-search-row { display: flex; gap: 8px; margin-bottom: 1.5rem; }
+  .pt-search-row input { flex: 1; }
+  .pt-results { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; max-height: 260px; overflow-y: auto; }
+  .pt-item { display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: var(--surface-2); border: 0.5px solid var(--border); border-radius: var(--radius); }
+  .pt-item.watched { border-color: var(--border-success); }
+  .pt-idx { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); min-width: 28px; }
+  .pt-title { flex: 1; font-size: 14px; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pt-dur { font-family: var(--font-mono); font-size: 12px; color: var(--text-secondary); }
+  .pt-check { font-size: 15px; min-width: 20px; text-align: center; cursor: pointer; }
+  .pt-upto { font-size: 11px; font-weight: 500; padding: 3px 8px; border-radius: var(--radius); border: 0.5px solid var(--border-strong); background: var(--surface-1); color: var(--text-secondary); cursor: pointer; white-space: nowrap; transition: background 0.12s, color 0.12s; }
+  .pt-upto:hover { background: var(--bg-accent); color: var(--text-accent); border-color: var(--border-accent); }
+  .pt-chart-wrap { background: var(--surface-2); border: 0.5px solid var(--border); border-radius: 12px; padding: 1.25rem; display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; }
+  .pt-stats { display: flex; flex-direction: column; gap: 10px; flex: 1; min-width: 160px; }
+  .pt-stat { background: var(--surface-1); border-radius: var(--radius); padding: 12px 14px; }
+  .pt-stat-label { font-size: 12px; color: var(--text-secondary); margin-bottom: 4px; }
+  .pt-stat-value { font-size: 22px; font-weight: 500; color: var(--text-primary); }
+  .pt-stat-value.green { color: var(--text-success); }
+  .pt-stat-value.muted { color: var(--text-muted); }
+  .pt-legend { display: flex; gap: 12px; margin-top: 8px; flex-wrap: wrap; }
+  .pt-legend-item { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--text-secondary); }
+  .pt-legend-sq { width: 10px; height: 10px; border-radius: 2px; }
+  .pt-toolbar { display: flex; gap: 8px; margin-bottom: 1rem; flex-wrap: wrap; }
+</style>
+
+<div class="pt-wrap">
+  <h2 class="sr-only">IPMA Innopark YouTube playlist progress tracker</h2>
+
+  <div class="pt-search-row">
+    <input type="text" id="pt-search" placeholder="Search videos…" oninput="ptFilter()" />
+  </div>
+
+  <div class="pt-toolbar">
+    <button onclick="ptToggleAll(true)">Mark all watched</button>
+    <button onclick="ptToggleAll(false)">Reset all</button>
+  </div>
+
+  <div class="pt-results" id="pt-results"></div>
+
+  <div class="pt-chart-wrap" id="pt-chart-wrap">
+    <div style="position:relative;width:160px;height:160px;flex-shrink:0;">
+      <canvas id="pt-pie" width="160" height="160" role="img" aria-label="Doughnut chart showing watched vs remaining playlist time"></canvas>
+    </div>
+    <div class="pt-stats">
+      <div class="pt-stat">
+        <div class="pt-stat-label">Watched</div>
+        <div class="pt-stat-value green" id="st-watched">0h 0m</div>
+      </div>
+      <div class="pt-stat">
+        <div class="pt-stat-label">Remaining</div>
+        <div class="pt-stat-value muted" id="st-remaining">0h 0m</div>
+      </div>
+      <div class="pt-stat">
+        <div class="pt-stat-label">Videos complete</div>
+        <div class="pt-stat-value" id="st-videos">0 / 0</div>
+      </div>
+      <div class="pt-legend">
+        <div class="pt-legend-item"><span class="pt-legend-sq" style="background:#1baf7a"></span>Watched</div>
+        <div class="pt-legend-item"><span class="pt-legend-sq" style="background:#e1e0d9"></span>Remaining</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const PLAYLIST = [
+  {id: 1, title: "M 01 01 Caratteristiche di un progetto", duration: "00:16:17", watched: false },
+  {id: 2, title: "M 01 02 Tipologie di progetti", duration: "00:2:44", watched: false },
+  {id: 3, title: "M 01 03 Compiti del project management", duration: "00:17:52", watched: false },
+  {id: 4, title: "M 01 04 Standard competenze", duration: "00:12:34", watched: false },
+  {id: 5, title: "M 01 05 Ciclo di vita del progetto", duration: "00:18:27", watched: false },
+  {id: 6, title: "M 01 06 Vincoli e negoziazione", duration: "00:5:18", watched: false },
+  {id: 7, title: "M 01 07 Criteri e fattori di successo e fallimento", duration: "00:18:55", watched: false },
+  {id: 8, title: "M 02 01 Organizzazione di progetto", duration: "00:11:33", watched: false },
+  {id: 9, title: "M 02 02 Modelli di organizzazione in azienda", duration: "00:20:41", watched: false },
+  {id: 10, title: "M 02 03 Attori del progetto I", duration: "00:9:01", watched: false },
+  {id: 11, title: "M 02 04 Attori del progetto II", duration: "00:8:45", watched: false },
+  {id: 12, title: "M 02 05 Attori del progetto III", duration: "00:6:53", watched: false },
+  {id: 13, title: "M 02 06 Matrice delle responsabilità", duration: "00:5:50", watched: false },
+  {id: 14, title: "M 02 07 Lessons Learned Lezioni apprese", duration: "00:4:06", watched: false },
+  {id: 15, title: "M 03 01 Vision e mission dell'azienda", duration: "00:6:04", watched: false },
+  {id: 16, title: "M 03 02 Orientamento al progetto", duration: "00:14:21", watched: false },
+  {id: 17, title: "M 03 03 Business Case", duration: "00:21:21", watched: false },
+  {id: 18, title: "M 03 04 Obiettivi operativi", duration: "00:34:42", watched: false },
+  {id: 19, title: "M 04 01 Metodo Agile", duration: "00:26:26", watched: false },
+  {id: 20, title: "M 05 01 Stakeholder Parti interessate", duration: "00:14:27", watched: false },
+  {id: 21, title: "M 05 02 Analisi del contesto", duration: "00:21:00", watched: false },
+  {id: 22, title: "M 06 01 Contenuto del progetto", duration: "00:24:43", watched: false },
+  {id: 23, title: "M 06 02 Metodi di valutazione", duration: "00:7:14", watched: false },
+  {id: 24, title: "M 06 03 Gestione della qualità", duration: "00:13:06", watched: false },
+  {id: 25, title: "M 07 01 Svolgimento del progetto Esempio", duration: "00:5:49", watched: false },
+  {id: 26, title: "M 07 02 Ciclo di vita del progetto", duration: "00:2:38", watched: false },
+  {id: 27, title: "M 07 03 Svolgimento del progetto", duration: "00:5:03", watched: false },
+  {id: 28, title: "M 07 04 Fasi del progetto", duration: "00:7:40", watched: false },
+  {id: 29, title: "M 07 05 Cambio di fase del progetto", duration: "00:3:25", watched: false },
+  {id: 30, title: "M 07 06 Pianificazione del progetto", duration: "00:11:52", watched: false },
+  {id: 31, title: "M 07 07 Reticolo di attività", duration: "00:15:27", watched: false },
+  {id: 32, title: "M 07 08 Tappe del progetto", duration: "00:6:20", watched: false },
+  {id: 33, title: "M 08 01 Definizione del rischio", duration: "00:8:58", watched: false },
+  {id: 34, title: "M 08 02 Metodi di gestione dei rischi I", duration: "00:8:29", watched: false },
+  {id: 35, title: "M 08 03 Metodi di gestione dei rischi II", duration: "00:3:17", watched: false },
+  {id: 36, title: "M 08 04 Metodi di gestione dei rischi III", duration: "00:2:32", watched: false },
+  {id: 37, title: "M 08 05 Metodi di gestione dei rischi IV", duration: "00:7:06", watched: false },
+  {id: 38, title: "M 08 06 Metodi di gestione dei rischi V", duration: "00:11:57", watched: false },
+  {id: 39, title: "M 09 01 Follow up del progetto", duration: "00:25:22", watched: false },
+  {id: 40, title: "M 09 02 Earned Value", duration: "00:19:39", watched: false },
+  {id: 41, title: "M 10 01 Costi del progetto", duration: "00:10:48", watched: false },
+  {id: 42, title: "M 10 02 Investitori", duration: "00:9:25", watched: false },
+  {id: 43, title: "M 10 03 Redditività del progetto", duration: "00:8:16", watched: false },
+  {id: 44, title: "M 10 04 Confronto di costi", duration: "00:12:29", watched: false },
+  {id: 45, title: "M 10 05 Redditività finanziaria", duration: "00:26:28", watched: false },
+];
+
+let state = PLAYLIST.map(v => ({ ...v }));
+let pieChart = null;
+
+function parseMins(t) {
+  const parts = t.split(':').map(Number);
+  return parts[0] * 60 + parts[1] + parts[2] / 60;
+}
+
+function fmtTime(mins) {
+  const h = Math.floor(mins / 60);
+  const m = Math.round(mins % 60);
+  return h > 0 ? `${h}h ${m}m` : `${m}m`;
+}
+
+// Mark all videos up to and including the given id as watched,
+// and all after it as unwatched.
+function ptWatchUpTo(id) {
+  state.forEach(v => { v.watched = v.id <= id; });
+  ptFilter();
+}
+
+function ptToggle(id) {
+  const v = state.find(x => x.id === id);
+  if (v) v.watched = !v.watched;
+  ptFilter();
+}
+
+function ptToggleAll(watched) {
+  state.forEach(v => v.watched = watched);
+  ptFilter();
+}
+
+function ptFilter() {
+  const q = document.getElementById('pt-search').value.toLowerCase().trim();
+  renderList(q);
+}
+
+function renderList(q = '') {
+  const container = document.getElementById('pt-results');
+  const filtered = q
+    ? state.filter(v => v.title.toLowerCase().includes(q))
+    : state;
+
+  if (!filtered.length) {
+    container.innerHTML = '<p style="font-size:14px;color:var(--text-muted);text-align:center;padding:2rem 0;">No videos match.</p>';
+    updateChart();
+    return;
+  }
+
+  container.innerHTML = filtered.map(v => `
+    <div class="pt-item${v.watched ? ' watched' : ''}">
+      <span class="pt-idx">${String(v.id).padStart(2,'0')}</span>
+      <span class="pt-title" title="${v.title}">${v.title}</span>
+      <span class="pt-dur">${v.duration}</span>
+      <span class="pt-upto" onclick="ptWatchUpTo(${v.id})" title="Mark all videos up to this one as watched">up to here</span>
+      <span class="pt-check" onclick="ptToggle(${v.id})" title="${v.watched ? 'Mark as unwatched' : 'Mark as watched'}">${v.watched ? '✅' : '○'}</span>
+    </div>
+  `).join('');
+
+  updateChart();
+}
+
+function updateChart() {
+  const totalMins = state.reduce((s, v) => s + parseMins(v.duration), 0);
+  const watchedMins = state.filter(v => v.watched).reduce((s, v) => s + parseMins(v.duration), 0);
+  const remainingMins = totalMins - watchedMins;
+  const watchedCount = state.filter(v => v.watched).length;
+
+  document.getElementById('st-watched').textContent = fmtTime(watchedMins);
+  document.getElementById('st-remaining').textContent = fmtTime(remainingMins);
+  document.getElementById('st-videos').textContent = `${watchedCount} / ${state.length}`;
+
+  const data = watchedMins === 0
+    ? [0.001, totalMins]
+    : watchedMins >= totalMins
+      ? [totalMins, 0.001]
+      : [watchedMins, remainingMins];
+
+  const ctx = document.getElementById('pt-pie').getContext('2d');
+  if (pieChart) {
+    pieChart.data.datasets[0].data = data;
+    pieChart.update();
+  } else {
+    pieChart = new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Watched', 'Remaining'],
+        datasets: [{
+          data,
+          backgroundColor: ['#1baf7a', '#e1e0d9'],
+          borderWidth: 2,
+          borderColor: '#ffffff',
+        }]
+      },
+      options: {
+        responsive: false,
+        cutout: '65%',
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: (ctx) => ` ${fmtTime(ctx.raw)} (${Math.round(ctx.raw / totalMins * 100)}%)`
+            }
+          }
+        },
+        animation: { duration: 300 }
+      }
+    });
+  }
+}
+
+renderList();
+</script>
