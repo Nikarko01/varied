@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Article Learning Cards</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        #card { border: 2px solid #333; padding: 20px; margin: 20px auto; width: 300px; }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <h1>Guess the German Article</h1>
+    <div id="card">
+        <h2 id="word"></h2>
+        <input type="text" id="answer" placeholder="der/die/das">
+        <button onclick="checkAnswer()">Submit</button>
+        <p id="feedback" class="hidden"></p>
+        <button id="next" class="hidden" onclick="nextCard()">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
