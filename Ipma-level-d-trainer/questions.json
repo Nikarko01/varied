@@ -1,0 +1,1115 @@
+[
+  {
+    "id": "F107",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.1",
+    "icb4_bezeichnung": "Strategie",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Was versteht die ICB 4.0 unter dem Beitrag eines Projekts zur Unternehmensstrategie?",
+    "optionen": {
+      "A": "Das Projekt muss alle strategischen Ziele des Unternehmens gleichzeitig erfüllen.",
+      "B": "Jedes Projekt soll zur Erreichung mindestens eines strategischen Unternehmensziels beitragen und dieser Beitrag soll klar benannt sein.",
+      "C": "Strategie ist ausschließlich Aufgabe der Geschäftsführung, nicht des Projektleiters.",
+      "D": "Ein Projekt ist strategisch, sobald es ein Budget von mehr als 500.000 Euro hat."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Nach ICB 4.0 müssen Projekte in den strategischen Rahmen der Organisation eingebettet sein. Der Projektleiter muss den strategischen Beitrag des Projekts kennen und kommunizieren können.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Eigenentwicklung Level D",
+    "niveau_hinweis": "Level-D-Standard (Bloom 1)"
+  },
+  {
+    "id": "OQ017",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.1",
+    "icb4_bezeichnung": "Strategie",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Erläutern Sie den Begriff 'Projekterfolg' nach ICB 4.0. Unterscheiden Sie dabei zwischen Projekterfolg und Produkterfolg und nennen Sie je drei Kriterien.",
+    "musterloesung": [
+      "Projekterfolg: Wurde das Projekt im geplanten Rahmen (Magisches Dreieck) abgeschlossen? Kriterien: 1) Termin eingehalten, 2) Budget eingehalten, 3) vereinbarte Leistung/Qualität erbracht.",
+      "Produkterfolg (Nutzenerfolg): Erzielt das Projektergebnis den gewünschten Nutzen? Kriterien: 1) Kundenzufriedenheit, 2) erreichte Business-Ziele (z.B. Produktivitätssteigerung), 3) Akzeptanz bei den Nutzern.",
+      "Wichtige Erkenntnis: Ein Projekt kann 'erfolgreich' beendet worden sein (Zeit, Kosten, Leistung ok) und trotzdem keinen Produkterfolg haben - z.B. weil das entwickelte System nicht angenommen wird.",
+      "Umgekehrt: Ein Projekt mit Terminverzug kann einen hohen Produkterfolg liefern.",
+      "ICB 4.0: Nachhaltiger Projekterfolg berücksichtigt beide Dimensionen und schließt Stakeholder-Zufriedenheit ein."
+    ],
+    "begruendung": "Projekterfolg vs. Produkterfolg ist ein wichtiges Konzept der ICB 4.0 und häufig Prüfungsinhalt.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 3"
+  },
+  {
+    "id": "F043",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.2",
+    "icb4_bezeichnung": "Governance, Strukturen und Prozesse",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Welche Aufgabe hat ein Lenkungsausschuss (Steering Committee) im Projekt?",
+    "optionen": {
+      "A": "Die tägliche operative Steuerung des Projekts und Kontrolle der Teammitglieder.",
+      "B": "Strategische Entscheidungen, Freigabe von Phasen und Ressourcen sowie Eskalation von Problemen, die der Projektleiter nicht lösen kann.",
+      "C": "Die technische Qualitätsprüfung aller Projektergebnisse.",
+      "D": "Die Entwicklung des Projektstrukturplans gemeinsam mit dem Projektteam."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Der Lenkungsausschuss trifft strategische Entscheidungen: Er genehmigt Phasenübergänge, freigibt Ressourcen und Budget, nimmt Eskalationen auf und vertritt die Interessen der Auftraggeber.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 3"
+  },
+  {
+    "id": "OQ008",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.2",
+    "icb4_bezeichnung": "Governance, Strukturen und Prozesse",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Beschreiben Sie die drei klassischen Projektorganisationsformen (Stabs-, Matrix- und reine Projektorganisation) und nennen Sie je einen typischen Anwendungsfall sowie einen Vorteil und einen Nachteil.",
+    "musterloesung": [
+      "1) Stabsorganisation: Projektleiter hat keine Weisungsbefugnis, koordiniert nur. Vorteil: kein Eingriff in Linienorganisation. Nachteil: geringe Durchsetzungskraft. Anwendung: kleine Projekte ohne Ressourcenkonflikt.",
+      "2) Matrixorganisation: Projektleiter teilt Weisungsbefugnis mit Linienvorgesetzten. Vorteil: flexibler Ressourcenzugang. Nachteil: Konflikte zwischen Projekt- und Linienführung. Anwendung: mittelgroße Projekte in Unternehmen mit stabiler Linienorganisation.",
+      "3) Reine (autonome) Projektorganisation: Projektleiter hat volle Weisungsbefugnis über eigenes Team. Vorteil: klare Verantwortung und schnelle Entscheidungen. Nachteil: Ressourcen werden aus der Linie herausgelöst - kostspielig. Anwendung: große, strategische Projekte."
+    ],
+    "begruendung": "Projektorganisationsformen sind Pflichtthema ICB 4.0 Perspective (3.2 Governance).",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 5"
+  },
+  {
+    "id": "F045",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.3",
+    "icb4_bezeichnung": "Compliance, Standards und Regelwerke",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Was versteht man unter 'Compliance' im Projektkontext?",
+    "optionen": {
+      "A": "Die Einhaltung aller internen und externen Gesetze, Normen, Vorschriften und ethischen Standards.",
+      "B": "Die Vollständigkeit der Projektdokumentation am Ende eines Projekts.",
+      "C": "Die Übereinstimmung des Projektergebnisses mit den technischen Spezifikationen.",
+      "D": "Die finanzielle Genehmigung aller Projektausgaben durch die Geschäftsführung."
+    },
+    "richtige_antwort": "A",
+    "begruendung": "Compliance bedeutet die Einhaltung aller relevanten Gesetze (z.B. Arbeitssicherheit, Datenschutz), Normen (DIN, ISO), internen Richtlinien und ethischen Standards, die für das Projekt gelten.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Probeklausur 3"
+  },
+  {
+    "id": "OQ027",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.3",
+    "icb4_bezeichnung": "Compliance, Standards und Regelwerke",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Nennen und erläutern Sie vier externe Compliance-Anforderungen, die für ein typisches Anlagenbauprojekt in Deutschland relevant sind.",
+    "musterloesung": [
+      "1) Maschinenrichtlinie / CE-Kennzeichnung: Maschinen müssen grundlegende Sicherheits- und Gesundheitsanforderungen erfüllen und mit CE-Zeichen versehen sein.",
+      "2) Betriebssicherheitsverordnung (BetrSichV): Regelt sicheres Betreiben von Arbeitsmitteln - relevant für Inbetriebnahme und Übergabe an den Betreiber.",
+      "3) Arbeitssicherheit / DGUV-Vorschriften: Unfallverhütungsvorschriften der Berufsgenossenschaften - relevant für Montagephasen auf der Baustelle.",
+      "4) Umweltrecht / BImSchG (Bundes-Immissionsschutzgesetz): Bei Anlagen mit Emissionen (Lärm, Abgase, Abwärme) sind Genehmigungen und Grenzwerte einzuhalten.",
+      "Weiteres Beispiel: DSGVO (Datenschutz) wenn Anlagen Daten erfassen; Druckgeräterichtlinie für Druckbehälter.",
+      "Konsequenz für PM: Compliance-Anforderungen müssen zu Projektbeginn identifiziert und in den Projektplan integriert werden."
+    ],
+    "begruendung": "Compliance ist Pflichtthema ICB 4.0 Perspective 3.3 - besonders relevant im M&A-Kontext.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 3"
+  },
+  {
+    "id": "F046",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.4",
+    "icb4_bezeichnung": "Macht und Interessen",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Welche Arten von Macht kann ein Projektleiter in einem Projekt einsetzen?",
+    "optionen": {
+      "A": "Nur formale Macht durch seine hierarchische Position.",
+      "B": "Formale Macht (Position), Expertenmacht (Fachwissen), Beziehungsmacht (Netzwerk) und Identifikationsmacht (Vorbild).",
+      "C": "Ausschließlich informelle Macht, da Projektleiter keine Weisungsbefugnis haben.",
+      "D": "Nur Expertenmacht und Beziehungsmacht, da Projektleiter keine formale Macht haben."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Projektleiter können verschiedene Machtquellen nutzen: formale Macht (Rolle/Position), Expertenmacht (Fachwissen), Beziehungsmacht (persönliches Netzwerk) und Identifikationsmacht (Vorbildwirkung).",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 5"
+  },
+  {
+    "id": "OQ024",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.4",
+    "icb4_bezeichnung": "Macht und Interessen",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Erläutern Sie die vier Machtquellen, die ein Projektleiter nutzen kann, und ordnen Sie je ein Praxisbeispiel zu.",
+    "musterloesung": [
+      "1) Formale Macht (Positionsmacht): Basiert auf der offiziellen Rolle und den damit verbundenen Weisungsrechten. Beispiel: Projektleiter erteilt einem Teammitglied eine direkte Anweisung im Rahmen seiner Projektrolle.",
+      "2) Expertenmacht (Fachwissen): Basiert auf besonderem technischen oder methodischen Wissen. Beispiel: Der Projektleiter überzeugt das Team durch seine Expertise in der Anlagentechnik.",
+      "3) Beziehungsmacht (Netzwerk): Basiert auf persönlichen Beziehungen und Vertrauen. Beispiel: Der Projektleiter erhält von einem befreundeten Abteilungsleiter kurzfristig Ressourcen, weil er ein gutes Verhältnis zu ihm hat.",
+      "4) Identifikationsmacht (Vorbildwirkung): Andere wollen so handeln wie der Projektleiter, weil sie ihn als Vorbild sehen. Beispiel: Das Team arbeitet motiviert, weil der Projektleiter selbst hohe Standards lebt und begeisternd kommuniziert.",
+      "Praxis: In Matrixorganisationen ohne formale Weisungsbefugnis sind Experten- und Beziehungsmacht besonders wichtig."
+    ],
+    "begruendung": "Machtquellen sind Grundlagenwissen ICB 4.0 Perspective 3.4 - relevant für die Rolle als Projektleiter.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Probeklausur 5"
+  },
+  {
+    "id": "F047",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.5",
+    "icb4_bezeichnung": "Kultur und Werte",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Warum ist die Unternehmens- und Projektkultur für den Projekterfolg relevant?",
+    "optionen": {
+      "A": "Kultur ist irrelevant, da technische Kompetenz allein den Projekterfolg bestimmt.",
+      "B": "Sie beeinflusst, wie Entscheidungen getroffen, Konflikte gelöst und Informationen geteilt werden - und damit direkt das Projektergebnis.",
+      "C": "Kultur ist nur bei internationalen Projekten mit verschiedenen Nationalitäten relevant.",
+      "D": "Projektkultur betrifft ausschließlich die Führungsebene, nicht das operative Team."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Unternehmens- und Projektkultur prägt Verhaltensweisen, Entscheidungsprozesse, Kommunikation und Zusammenarbeit. Eine fehlerfreundliche, offene Kultur fördert Lernen und Projekterfolg.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 3"
+  },
+  {
+    "id": "OQ012",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.5",
+    "icb4_bezeichnung": "Kultur und Werte",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Ein Unternehmen hat eine Unternehmenskultur, in der Fehler tabuisiert werden ('Fehler nicht zugeben'). Sie leiten ein Entwicklungsprojekt und möchten eine fehlerfreundliche Projektkultur aufbauen. Welche konkreten Maßnahmen ergreifen Sie?",
+    "musterloesung": [
+      "Maßnahme 1: Lessons-Learned-Sessions etablieren - regelmäßig, nicht erst am Projektende. Fehler werden als Lernchance behandelt.",
+      "Maßnahme 2: Selbst als Projektleiter Fehler offen kommunizieren und zeigen, wie man damit umgeht - Vorbildfunktion.",
+      "Maßnahme 3: Retrospektiven einführen (z.B. nach jeder Projektphase): Was lief gut? Was können wir verbessern? Keine Schuldzuweisungen.",
+      "Maßnahme 4: Frühwarnsystem einrichten - Teammitglieder ermutigen, Probleme früh zu melden, ohne Konsequenzen zu fürchten.",
+      "Maßnahme 5: Erfolge und Mut zur Offenheit explizit anerkennen und loben.",
+      "Wichtig: Kulturveränderung braucht Zeit und Konsequenz - Aussagen und Verhalten müssen übereinstimmen."
+    ],
+    "begruendung": "Kultur und Werte (ICB 4.0 Perspective 3.5) ist ein wachsendes Prüfungsthema, da es direkt die Führungskompetenz abbildet.",
+    "schwierigkeit": "schwer",
+    "quelle_klausur": "Probeklausur 3"
+  },
+  {
+    "id": "F039",
+    "icb4_bereich": "People",
+    "icb4_element": "4.1",
+    "icb4_bezeichnung": "Selbstreflexion und Selbstmanagement",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Was beschreibt die Eisenhower-Matrix als Selbstmanagement-Tool?",
+    "optionen": {
+      "A": "Eine Methode zur Projektpriorisierung nach Budgetgröße und Strategierelevanz.",
+      "B": "Eine 4-Felder-Matrix, die Aufgaben nach Wichtigkeit und Dringlichkeit in Prioritätsstufen einteilt.",
+      "C": "Ein Führungsmodell, das Aufgabendelegation nach Mitarbeiterkompetenz regelt.",
+      "D": "Ein Teamrollenmodell zur Besetzung von Projektfunktionen."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Die Eisenhower-Matrix teilt Aufgaben in vier Felder: wichtig/dringend (sofort erledigen), wichtig/nicht dringend (terminieren), unwichtig/dringend (delegieren), unwichtig/nicht dringend (eliminieren).",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Probeklausur 3"
+  },
+  {
+    "id": "OQ023",
+    "icb4_bereich": "People",
+    "icb4_element": "4.1",
+    "icb4_bezeichnung": "Selbstreflexion und Selbstmanagement",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Sie sind Projektleiter und merken, dass Sie in stressigen Phasen dazu neigen, alle Aufgaben selbst zu erledigen anstatt zu delegieren. Welche Maßnahmen helfen Ihnen, Delegation systematisch umzusetzen?",
+    "musterloesung": [
+      "Selbstreflexion: Eigenes Verhalten erkennen ist der erste Schritt. Muster analysieren: Wann neige ich zum Selbst-Machen? Warum? (Kontrollverlust, Misstrauen, Zeitdruck?).",
+      "Eisenhower-Prinzip anwenden: Konsequent unterscheiden zwischen Aufgaben, die ich selbst erledigen muss (wichtig+strategisch) und Aufgaben, die delegierbar sind.",
+      "Delegieren vorbereiten: Klare Aufgabenbeschreibung, Ziel, Ressourcen, Entscheidungsspielraum und Termin kommunizieren.",
+      "Vertrauen aufbauen: Teammitglieder in kleineren Aufgaben bewusst wachsen lassen, Feedback geben, nicht sofort eingreifen.",
+      "Kontrolle ohne Mikromanagement: Vereinbarte Meilensteine und Check-ins statt ständige Kontrolle - gibt Spielraum und schafft Vertrauen.",
+      "Reflection: Nach stressigen Phasen systematisch reflektieren, was hätte delegiert werden können."
+    ],
+    "begruendung": "Selbstmanagement und Delegation sind Kernthemen ICB 4.0 People 4.1 - besonders relevant für Ingenieure in neuen PM-Rollen.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 3"
+  },
+  {
+    "id": "F050",
+    "icb4_bereich": "People",
+    "icb4_element": "4.2",
+    "icb4_bezeichnung": "Integrität und Verlässlichkeit",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Was bedeutet Integrität im Kontext der ICB 4.0 für einen Projektleiter?",
+    "optionen": {
+      "A": "Technisches Fachwissen und fehlerfreie Projektplanung.",
+      "B": "Konsequentes Handeln nach eigenen Werten und ethischen Grundsätzen, auch unter Druck.",
+      "C": "Die Fähigkeit, alle Projektdokumente vollständig und korrekt zu erstellen.",
+      "D": "Loyalität gegenüber dem Auftraggeber, unabhängig von den eigenen Werten."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Integrität nach ICB 4.0 bedeutet, konsequent nach den eigenen ethischen Werten und Grundsätzen zu handeln, auch wenn es unangenehm ist. Dies schließt Ehrlichkeit, Fairness und Verlässlichkeit ein.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 3"
+  },
+  {
+    "id": "F115",
+    "icb4_bereich": "People",
+    "icb4_element": "4.2",
+    "icb4_bezeichnung": "Integrität und Verlässlichkeit",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Ein Projektleiter erfährt, dass ein Teammitglied Arbeitsstunden falsch dokumentiert. Er ist befreundet mit der Person. Wie verhält er sich integer?",
+    "optionen": {
+      "A": "Er deckt den Vorfall, um die Freundschaft nicht zu gefährden.",
+      "B": "Er spricht das Teammitglied zunächst persönlich an, dokumentiert den Vorfall und meldet ihn gemäß den Unternehmensregeln.",
+      "C": "Er übergeht die falsche Dokumentation, solange das Budget stimmt.",
+      "D": "Er ersetzt die Person sofort durch ein anderes Teammitglied."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Integrität erfordert regelkonformes Handeln unabhängig von persönlichen Beziehungen. Das direkte Gespräch ist respektvoll, aber die Meldepflicht gilt trotzdem. Deckung wäre ein Integritätsverstoß.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Eigenentwicklung Level D",
+    "niveau_hinweis": "Level-D-Standard (Bloom 2)"
+  },
+  {
+    "id": "F031",
+    "icb4_bereich": "People",
+    "icb4_element": "4.3",
+    "icb4_bezeichnung": "Persönliche Kommunikation",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Das Kommunikationsmodell von Watzlawick besagt, dass jede Kommunikation einen Inhalts- und einen Beziehungsaspekt hat. Was bedeutet das Axiom 'Man kann nicht nicht kommunizieren'?",
+    "optionen": {
+      "A": "Jeder Mensch muss ständig sprechen, um zu kommunizieren.",
+      "B": "Auch Schweigen oder Nichthandeln ist eine Form der Kommunikation.",
+      "C": "Schriftliche Kommunikation ist immer weniger wirksam als mündliche.",
+      "D": "Nonverbale Signale sind irrelevant für die Projektkommunikation."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Watzlawicks erstes Axiom besagt: Man kann nicht nicht kommunizieren. Auch Schweigen, Wegsehen oder Nichtstun übermittelt eine Botschaft und ist damit Kommunikation.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 2"
+  },
+  {
+    "id": "OQ014",
+    "icb4_bereich": "People",
+    "icb4_element": "4.3",
+    "icb4_bezeichnung": "Persönliche Kommunikation",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Erläutern Sie das 4-Ohren-Modell von Schulz von Thun anhand eines konkreten Projektbeispiels. Welche praktischen Konsequenzen hat es für die Kommunikation als Projektleiter?",
+    "musterloesung": [
+      "Das 4-Ohren-Modell: Jede Nachricht hat vier Seiten: 1) Sachseite (was wird mitgeteilt?), 2) Selbstoffenbarungsseite (was sage ich über mich?), 3) Beziehungsseite (wie sehe ich den Empfänger?), 4) Appellseite (was will ich vom Empfänger?).",
+      "Beispiel: Projektleiter sagt: 'Die Dokumentation ist schon wieder nicht fertig.' - Sachseite: Dokumentation fehlt. - Selbstoffenbarung: Ich bin genervt/unter Druck. - Beziehungsseite: Du arbeitest nicht zuverlässig. - Appell: Liefer die Dokumentation jetzt.",
+      "Problem: Der Mitarbeiter hört möglicherweise vor allem die Beziehungsseite ('Ich werde kritisiert') und reagiert defensiv.",
+      "Konsequenz für Projektleiter: Bewusst auf die Formulierung achten - sachliche Sprache wählen, Ich-Botschaften statt Du-Vorwürfe, Appelle klar benennen.",
+      "Bessere Formulierung: 'Ich brauche die Dokumentation bis morgen 12 Uhr für das Kundengespräch. Was braucht du, damit das klappt?'"
+    ],
+    "begruendung": "Kommunikationsmodelle sind Pflichtthema ICB 4.0 People 4.3.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 2"
+  },
+  {
+    "id": "F096",
+    "icb4_bereich": "People",
+    "icb4_element": "4.4",
+    "icb4_bezeichnung": "Beziehungen und Engagement",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Welchen Unterschied macht es, ob ein Projektleiter Beziehungen zu Stakeholdern reaktiv oder proaktiv pflegt?",
+    "optionen": {
+      "A": "Keinen — Stakeholder reagieren immer gleich, egal wie die Beziehung gepflegt wird.",
+      "B": "Proaktive Beziehungspflege baut Vertrauen auf bevor Konflikte entstehen; reaktive Pflege setzt erst bei Problemen an.",
+      "C": "Reaktive Pflege ist effizienter, weil keine Ressourcen verschwendet werden.",
+      "D": "Proaktive Pflege ist nur bei externen Stakeholdern sinnvoll."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Proaktives Beziehungsmanagement schafft eine stabile Vertrauensbasis, die im Konfliktfall als Puffer wirkt. Reaktives Handeln hingegen beginnt oft wenn Positionen bereits verhärtet sind.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Eigenentwicklung Level D",
+    "niveau_hinweis": "Level-D-Standard (Bloom 2)"
+  },
+  {
+    "id": "F127",
+    "icb4_bereich": "People",
+    "icb4_element": "4.4",
+    "icb4_bezeichnung": "Beziehungen und Engagement",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Die Zwei-Faktoren-Theorie nach Herzberg unterscheidet zwischen Motivatoren und Hygienefaktoren. Welche der folgenden Aussagen beschreibt diese Theorie korrekt?",
+    "optionen": {
+      "A": "Motivatoren und Hygienefaktoren wirken identisch und sind im Wesentlichen austauschbar.",
+      "B": "Hygienefaktoren (z. B. Bezahlung, Arbeitsbedingungen) erzeugen aktive Zufriedenheit, Motivatoren verhindern Unzufriedenheit.",
+      "C": "Motivatoren (z. B. Anerkennung, Verantwortung, Aufstieg) erzeugen Zufriedenheit; Hygienefaktoren (z. B. Bezahlung, Arbeitsbedingungen) verhindern Unzufriedenheit, schaffen aber selbst keine Motivation.",
+      "D": "Nur extrinsische Faktoren wie Gehalt und Boni wirken nachhaltig auf die Motivation."
+    },
+    "richtige_antwort": "C",
+    "begruendung": "Herzberg zeigt: Zufriedenheit und Unzufriedenheit sind nicht zwei Pole einer Skala, sondern zwei unabhaengige Dimensionen. Hygienefaktoren verhindern Unzufriedenheit, wenn sie erfuellt sind, schaffen aber keine Motivation. Echte Motivation entsteht nur ueber die Motivatoren — interessante Arbeit, Verantwortung, Anerkennung, Entwicklungsmoeglichkeiten. Fuer Projektleiter heisst das: Bezahlung allein motiviert nicht.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Eigenentwicklung Level D - Deck-konform",
+    "niveau_hinweis": "Level-D-Standard (Bloom 2)"
+  },
+  {
+    "id": "F123",
+    "icb4_bereich": "People",
+    "icb4_element": "4.5",
+    "icb4_bezeichnung": "Fuehrung",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Welche drei klassischen Fuehrungsstile werden im Continuum der Fuehrung (z. B. nach Tannenbaum/Schmidt) unterschieden?",
+    "optionen": {
+      "A": "Direktiv, coachend, delegierend",
+      "B": "Autoritaer, kooperativ, laissez-faire",
+      "C": "Transaktional, transformational, charismatisch",
+      "D": "Aufgabenorientiert, beziehungsorientiert, ergebnisorientiert"
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Das klassische Continuum unterscheidet drei Grundstile: autoritaer (Fuehrungskraft entscheidet alleine), kooperativ (Entscheidung im Dialog mit dem Team) und laissez-faire (Mitarbeiter handeln weitgehend eigenstaendig). Die Auswahl des passenden Stils haengt von der Situation, dem Team und der Aufgabe ab.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Eigenentwicklung Level D - Deck-konform",
+    "niveau_hinweis": "Level-D-Standard (Bloom 2)"
+  },
+  {
+    "id": "OQ010",
+    "icb4_bereich": "People",
+    "icb4_element": "4.5",
+    "icb4_bezeichnung": "Führung",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Beschreiben Sie das Modell der situativen Führung nach Hersey und Blanchard. Wenden Sie es auf folgendes Beispiel an: Ein Ingenieur (5 Jahre Erfahrung) tritt zum ersten Mal eine Rolle als Teilprojektleiter an. Er ist fachlich kompetent, aber unsicher in der neuen Rolle.",
+    "musterloesung": [
+      "Das Modell: Führungsstil richtet sich nach dem Reifegrad (Entwicklungsstand) des Mitarbeiters. Reifegrad = Kompetenz (Können) × Engagement (Wollen).",
+      "4 Führungsstile: Dirigieren/Anweisen (R1: wenig Können + wenig Wollen), Coaching (R2: etwas Können + wenig Wollen), Unterstützen (R3: viel Können + wenig Wollen), Delegieren (R4: viel Können + viel Wollen).",
+      "Analyse des Beispiels: Fachlich kompetent = hohes Können. Unsicher in neuer Rolle = niedriges Wollen/Engagement in dieser Funktion. → Reifegrad M3.",
+      "Passender Führungsstil: Unterstützend/Partizipativ (S3). Der Projektleiter gibt wenig Anweisungen, beteiligt den Mitarbeiter an Entscheidungen, gibt regelmäßiges Feedback und bestärkt ihn.",
+      "Nicht geeignet: Delegieren (zu viel Unsicherheit) oder Dirigieren (Fähigkeiten unterschätzen)."
+    ],
+    "begruendung": "Situative Führung ist ein Kernmodell der ICB 4.0 People-Kompetenz 4.5 Führung.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 5"
+  },
+  {
+    "id": "F035",
+    "icb4_bereich": "People",
+    "icb4_element": "4.6",
+    "icb4_bezeichnung": "Teamarbeit",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Wie lauten die fünf Phasen der Teamentwicklung nach Tuckman in der richtigen Reihenfolge?",
+    "optionen": {
+      "A": "Storming, Forming, Norming, Performing, Adjourning",
+      "B": "Forming, Norming, Storming, Performing, Adjourning",
+      "C": "Forming, Storming, Norming, Performing, Adjourning",
+      "D": "Planning, Forming, Storming, Performing, Closing"
+    },
+    "richtige_antwort": "C",
+    "begruendung": "Die fünf Phasen nach Tuckman sind: Forming (Orientierung), Storming (Konflikte), Norming (Regelung), Performing (Hochleistung), Adjourning (Auflösung). Die Reihenfolge ist festgelegt.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Probeklausur 2"
+  },
+  {
+    "id": "OQ026",
+    "icb4_bereich": "People",
+    "icb4_element": "4.6",
+    "icb4_bezeichnung": "Teamarbeit",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Beschreiben Sie drei typische Merkmale hochleistungsfähiger Projektteams (Performing-Phase nach Tuckman) und erläutern Sie, wie ein Projektleiter diese Merkmale fördern kann.",
+    "musterloesung": [
+      "Merkmal 1 - Hohe Eigenverantwortung: Teammitglieder übernehmen eigeninitiativ Aufgaben und treffen dezentrale Entscheidungen. Förderung: Spielraum geben, Vertrauen zeigen, Fehler als Lernchance behandeln.",
+      "Merkmal 2 - Offene Kommunikation und Feedbackkultur: Probleme werden früh angesprochen, Feedback ist normal. Förderung: Retrospektiven einführen, aktiv Feedback einfordern, selbst offen mit Fehlern umgehen.",
+      "Merkmal 3 - Gemeinsames Zielverständnis: Alle wissen, wofür das Team arbeitet, und identifizieren sich mit dem Projektziel. Förderung: Projektvision klar kommunizieren, Fortschritte feiern, Sinnstiftung ermöglichen.",
+      "Grundsatz: Der Projektleiter in der Performing-Phase ist weniger Anleiter, mehr Coach und Ermöglicher."
+    ],
+    "begruendung": "Teamentwicklung ist Kernthema ICB 4.0 People 4.6 - Performing-Phase als Idealzustand häufig Prüfungsthema.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 3"
+  },
+  {
+    "id": "F125",
+    "icb4_bereich": "People",
+    "icb4_element": "4.7",
+    "icb4_bezeichnung": "Konflikte und Krisen",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Welche der folgenden Aussagen beschreibt den Unterschied zwischen einem Konflikt und einer Krise im Projektkontext?",
+    "optionen": {
+      "A": "Konflikte entstehen immer zwischen Personen, Krisen immer durch technische Probleme.",
+      "B": "Ein Konflikt ist ein Interessengegensatz der eskalieren kann; eine Krise ist eine akute Bedrohung des Projekterfolgs, die sofortiges Handeln erfordert.",
+      "C": "Krisen sind immer durch den Auftraggeber verursacht, Konflikte durch das Team.",
+      "D": "Konflikte sind in Projekten normal und positiv, Krisen können ignoriert werden."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Konflikte sind Interessengegensätze, die wenn unbehandelt eskalieren. Eine Krise ist eine akute Störung die den Projekterfolg direkt bedroht und eine unmittelbare Reaktion erfordert. Beide brauchen strukturierte Bearbeitung, aber mit unterschiedlicher Dringlichkeit.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Eigenentwicklung Level D",
+    "niveau_hinweis": "Level-D-Standard (Bloom 1)"
+  },
+  {
+    "id": "OQ006",
+    "icb4_bereich": "People",
+    "icb4_element": "4.7",
+    "icb4_bezeichnung": "Konflikte und Krisen",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Zwei Ihrer Teammitglieder (Konstrukteur A und Projektingenieur B) eskalieren einen Streit zu Ihnen. A beschuldigt B, seine Arbeitsergebnisse ohne Absprache geändert zu haben. B sagt, A sei unkooperativ. Beschreiben Sie Ihr konkretes Vorgehen zur Konfliktlösung.",
+    "musterloesung": [
+      "Schritt 1: Beide Seiten getrennt anhören - sachlich, ohne zu urteilen. Ziel: Verständnis für beide Perspektiven.",
+      "Schritt 2: Gemeinsames Gespräch moderieren - Regeln setzen: sachlich bleiben, ausreden lassen, Ich-Botschaften verwenden.",
+      "Schritt 3: Sachverhalt klären - Was ist tatsächlich passiert? Fakten von Interpretationen trennen.",
+      "Schritt 4: Interessen herausarbeiten - Was braucht A? Was braucht B? Oft stecken legitime Interessen hinter den Positionen.",
+      "Schritt 5: Gemeinsame Lösung erarbeiten - z.B. klare Absprachen über Änderungsprozesse, wer was freigibt.",
+      "Schritt 6: Vereinbarung dokumentieren und nachverfolgen.",
+      "Grundsatz: Konflikte nicht eskalieren, solange sie auf Teamebene lösbar sind. Eskalation nur wenn nötig."
+    ],
+    "begruendung": "Konfliktlösung ist ein praktischer Kompetenzbereich (ICB 4.0 People) mit hoher Prüfungsrelevanz.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 3"
+  },
+  {
+    "id": "F064",
+    "icb4_bereich": "People",
+    "icb4_element": "4.8",
+    "icb4_bezeichnung": "Vielseitigkeit",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Was bedeutet Vielseitigkeit (Versatility) nach ICB 4.0 für einen Projektleiter?",
+    "optionen": {
+      "A": "Die Fähigkeit, mehrere Softwaretools gleichzeitig zu bedienen.",
+      "B": "Die Fähigkeit, das eigene Verhalten flexibel an unterschiedliche Situationen, Personen und Kulturen anzupassen.",
+      "C": "Die technische Kompetenz in mehreren Fachgebieten gleichzeitig.",
+      "D": "Die Fähigkeit, mehrere Projekte gleichzeitig zu leiten."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Vielseitigkeit nach ICB 4.0 bezeichnet die Fähigkeit, das eigene Verhalten situativ anzupassen: unterschiedliche Führungsstile, Kommunikationsansätze und interkulturelle Sensibilität je nach Kontext.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 3"
+  },
+  {
+    "id": "F099",
+    "icb4_bereich": "People",
+    "icb4_element": "4.8",
+    "icb4_bezeichnung": "Vielseitigkeit",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Warum ist Vielseitigkeit für Projektleiter im Maschinen- und Anlagenbau besonders wichtig?",
+    "optionen": {
+      "A": "Weil Projektleiter in der Regel mehrere Fachgebiete studiert haben müssen.",
+      "B": "Weil M&A-Projekte typischerweise viele unterschiedliche Fachdisziplinen, Kulturen und Hierarchieebenen umfassen, die verschiedene Herangehensweisen erfordern.",
+      "C": "Weil die IPMA Vielseitigkeit als Pflichtnachweis für die Zertifizierung fordert.",
+      "D": "Weil technische Probleme immer flexible Lösungsansätze erzwingen."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "M&A-Projekte vereinen Mechaniker, Elektrotechniker, Software-Ingenieure, Einkäufer und externe Partner. Dieser Mix erfordert unterschiedliche Kommunikations-, Führungs- und Problemlösungsansätze.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Eigenentwicklung Level D",
+    "niveau_hinweis": "Level-D-Standard (Bloom 2)"
+  },
+  {
+    "id": "F117",
+    "icb4_bereich": "People",
+    "icb4_element": "4.9",
+    "icb4_bezeichnung": "Verhandlungen",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Ein Lieferant fordert eine Preiserhöhung von 15% für Komponenten, die bereits fest eingeplant sind. Welche Verhandlungsstrategie ist in diesem Fall sinnvoll?",
+    "optionen": {
+      "A": "Sofort akzeptieren, um den Lieferanten nicht zu verlieren.",
+      "B": "Forderung ablehnen und den Vertrag sofort kündigen.",
+      "C": "Die eigene BATNA prüfen, Sachargumente vorbereiten und einen Kompromiss mit konkreten Gegenleistungen anbieten.",
+      "D": "Die Entscheidung an den Einkauf delegieren und abwarten."
+    },
+    "richtige_antwort": "C",
+    "begruendung": "Gute Verhandlungsführung kombiniert Vorbereitung (BATNA, Argumente), sachliche Kommunikation und das Angebot von Alternativen. Sofortiges Akzeptieren schwächt die Position; sofortiger Abbruch riskiert die Lieferkette.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Eigenentwicklung Level D",
+    "niveau_hinweis": "Level-D-Standard (Bloom 2)"
+  },
+  {
+    "id": "OQ019",
+    "icb4_bereich": "People",
+    "icb4_element": "4.9",
+    "icb4_bezeichnung": "Verhandlungen",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Sie verhandeln mit einem Lieferanten über einen Liefertermin für kritische Komponenten. Der Lieferant sagt: 'Früher als in 10 Wochen geht es nicht.' Sie brauchen die Teile in 7 Wochen. Beschreiben Sie Ihr Vorgehen nach dem Harvard-Konzept.",
+    "musterloesung": [
+      "Schritt 1 - Menschen und Problem trennen: Sachlich bleiben, Beziehung zum Lieferanten erhalten, keine Schuldzuweisungen.",
+      "Schritt 2 - Interessen erkunden: Warum 10 Wochen? Materialengpass? Kapazitätsproblem? Andere Aufträge? Verstehen was hinter der Position steckt.",
+      "Schritt 3 - Optionen entwickeln: Mögliche Lösungen: Kann ein Teil der Liefermenge früher kommen? Können wir bei der Fertigung helfen (Vorauszahlung, Materialbeschaffung)? Gibt es Alternativen für einzelne Komponenten?",
+      "Schritt 4 - Objektive Kriterien nutzen: Liefertermin im Vertrag? Was sind marktübliche Lieferzeiten? Was sind die tatsächlichen Konsequenzen bei 10 Wochen?",
+      "Schritt 5 - BATNA kennen: Was ist meine beste Alternative wenn die Verhandlung scheitert? Zweiter Lieferant? Teillieferung?",
+      "Ziel: Win-Win finden - nicht die Position durchsetzen, sondern das Interesse (7 Wochen) befriedigen."
+    ],
+    "begruendung": "Verhandlungsführung ist People-Kompetenz 4.9 und wird in Prüfungen häufig als Fallbeispiel abgefragt.",
+    "schwierigkeit": "schwer",
+    "quelle_klausur": "Probeklausur 3"
+  },
+  {
+    "id": "F101",
+    "icb4_bereich": "People",
+    "icb4_element": "4.10",
+    "icb4_bezeichnung": "Ergebnisorientierung",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Ein Projektleiter hält alle Prozesse penibel ein, das Projektergebnis entspricht am Ende aber nicht den Erwartungen des Auftraggebers. Was zeigt dieses Beispiel?",
+    "optionen": {
+      "A": "Dass Prozesstreue wichtiger ist als das Ergebnis — der Projektleiter hat alles richtig gemacht.",
+      "B": "Dass Prozesstreue allein keine Ergebnisorientierung ist — das Ziel bleibt die Zufriedenheit des Auftraggebers mit dem Lieferobjekt.",
+      "C": "Dass der Auftraggeber falsche Erwartungen hatte und dafür verantwortlich ist.",
+      "D": "Dass agile Methoden besser geeignet gewesen wären."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Ergebnisorientierung unterscheidet sich von Prozesstreue. Prozesse sind Mittel zum Zweck. Wenn das Ergebnis nicht stimmt, ist das Projektziel verfehlt — unabhängig davon, ob Prozesse korrekt durchlaufen wurden.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Eigenentwicklung Level D",
+    "niveau_hinweis": "Level-D-Standard (Bloom 2)"
+  },
+  {
+    "id": "OQ029",
+    "icb4_bereich": "People",
+    "icb4_element": "4.10",
+    "icb4_bezeichnung": "Ergebnisorientierung",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Beschreiben Sie, was 'Ergebnisorientierung' im Sinne der ICB 4.0 für einen Projektleiter bedeutet, und nennen Sie drei typische Situationen, in denen diese Kompetenz gefordert ist.",
+    "musterloesung": [
+      "Ergebnisorientierung bedeutet: Konsequentes Ausrichten aller Aktivitäten auf die vereinbarten Projektziele. Vereinbarungen einhalten, Prioritäten setzen, Ablenkungen minimieren.",
+      "Situation 1 - Scope Creep: Der Auftraggeber wünscht immer neue Zusatzfunktionen ohne Änderungsantrag. Ergebnisorientierung: Klare Grenze ziehen, Änderungsantrag verlangen, Auswirkungen auf Termin/Kosten transparent machen.",
+      "Situation 2 - Perfektionismus im Team: Teammitglieder wollen immer weiter verbessern, anstatt zu liefern. Ergebnisorientierung: 'Good enough is good enough' - liefern, was vereinbart ist; Verbesserungen in nächste Version.",
+      "Situation 3 - Termindruck: Das Team möchte den Termin verschieben, weil noch Kleinigkeiten fehlen. Ergebnisorientierung: Kritische Punkte von Nice-to-have trennen, Termin einhalten, Rest als Known Issues dokumentieren.",
+      "Abgrenzung: Ergebnisorientierung bedeutet nicht Rücksichtslosigkeit - sie schließt ethisches Handeln und Teamfürsorge ein."
+    ],
+    "begruendung": "Ergebnisorientierung ist ICB 4.0 People 4.10 - als Querschnittskompetenz relevant in vielen Prüfungssituationen.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 5"
+  },
+  {
+    "id": "F002",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.1",
+    "icb4_bezeichnung": "Projektdesign",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Ein Maschinenbauunternehmen plant die Entwicklung einer neuen Produktionslinie. Welche der folgenden Merkmale weist darauf hin, dass es sich um ein Projekt handelt?",
+    "optionen": {
+      "A": "Die Aufgabe wird monatlich wiederholt und ist gut dokumentiert.",
+      "B": "Die Aufgabe ist zeitlich unbegrenzt und wird von einer festen Abteilung erledigt.",
+      "C": "Die Aufgabe ist einmalig, hat klare Ziele, einen definierten Endtermin und ein genehmigtes Budget.",
+      "D": "Die Aufgabe umfasst nur Standardprozesse ohne besondere Risiken."
+    },
+    "richtige_antwort": "C",
+    "begruendung": "Einmaligkeit, klare Ziele, definierter Endtermin und genehmigtes Budget sind klassische Projektmerkmale nach ICB 4.0.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Probeklausur 1"
+  },
+  {
+    "id": "OQ015",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.1",
+    "icb4_bezeichnung": "Projektdesign",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Nennen Sie sechs typische Merkmale, die ein Vorhaben als 'Projekt' kennzeichnen, und grenzen Sie den Begriff von einer 'Routineaufgabe' ab.",
+    "musterloesung": [
+      "Merkmale eines Projekts: 1) Einmaligkeit - kein identisches Vorhaben zuvor, 2) Klares Ziel mit definierten Lieferobjekten, 3) Zeitliche Begrenzung - definierter Start und Endtermin, 4) Begrenzte Ressourcen (Budget, Personal, Material), 5) Komplexität und Unsicherheit - nicht vollständig planbar, 6) Temporäre Projektorganisation - eigenes Team für Projektdauer.",
+      "Abgrenzung zur Routineaufgabe: Routineaufgaben sind wiederkehrend, gut planbar, von einer festen Abteilung erledigt und haben kein definiertes Endprodukt. Beispiel: monatliche Instandhaltung einer Maschine = Routineaufgabe.",
+      "Beispiel Projekt: Entwicklung und Inbetriebnahme einer neuen Produktionslinie = einmalig, zeitlich begrenzt, komplexes Ziel, eigenes Projektteam."
+    ],
+    "begruendung": "Projektdefinition ist Grundlagenwissen Level D und bildet die Basis für alle weiteren Themen.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Probeklausur 1"
+  },
+  {
+    "id": "F006",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.2",
+    "icb4_bezeichnung": "Anforderungen und Ziele",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Was ist der wesentliche Unterschied zwischen einem Lastenheft und einem Pflichtenheft?",
+    "optionen": {
+      "A": "Das Lastenheft beschreibt die technische Lösung, das Pflichtenheft die Kundenanforderungen.",
+      "B": "Das Lastenheft wird vom Auftragnehmer erstellt, das Pflichtenheft vom Auftraggeber.",
+      "C": "Das Lastenheft enthält die Anforderungen des Auftraggebers, das Pflichtenheft die Lösungsbeschreibung des Auftragnehmers.",
+      "D": "Lastenheft und Pflichtenheft beschreiben beide dasselbe, sind aber für verschiedene Projektphasen gedacht."
+    },
+    "richtige_antwort": "C",
+    "begruendung": "Das Lastenheft (URS - User Requirements Specification) wird vom Auftraggeber erstellt und beschreibt WAS gebraucht wird. Das Pflichtenheft wird vom Auftragnehmer erstellt und beschreibt WIE die Anforderungen umgesetzt werden.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 1"
+  },
+  {
+    "id": "OQ022",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.2",
+    "icb4_bezeichnung": "Anforderungen und Ziele",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Erläutern Sie die fünf möglichen Zielbeziehungen zwischen Projektzielen und nennen Sie je ein Beispiel aus einem Anlagenprojekt.",
+    "musterloesung": [
+      "1) Identisch: Ziel A und Ziel B verfolgen dasselbe Ergebnis. Beispiel: 'Anlage bis 31.12. liefern' und 'Inbetriebnahme bis Jahresende' sind identisch.",
+      "2) Komplementär: Ziele ergänzen sich, das Erreichen von A hilft B. Beispiel: 'Hohe Prozessstabilität' und 'niedrige Ausschussrate' - wer A erreicht, erreicht B leichter.",
+      "3) Neutral: Ziele beeinflussen sich nicht. Beispiel: 'Dokumentation auf Deutsch' und 'Liefertermin 31.12.' - unabhängig voneinander.",
+      "4) Konkurrierend: Das Erreichen von A erschwert B. Beispiel: 'Maximale Qualität' und 'minimale Kosten' - steht in Spannung.",
+      "5) Antinomisch (unvereinbar): A und B schließen sich aus. Beispiel: 'Anlage muss im Juli laufen' und 'Anlage wird erst im September ausgeliefert' - unmöglich gleichzeitig zu erfüllen.",
+      "Konsequenz: Antinomische Ziele müssen zu Projektbeginn erkannt und aufgelöst werden."
+    ],
+    "begruendung": "Zielbeziehungen sind Grundlagenwissen für Anforderungsmanagement - ICB 4.0 Practice 5.2.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 1"
+  },
+  {
+    "id": "F007",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.3",
+    "icb4_bezeichnung": "Leistungsumfang und Lieferobjekte",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Was versteht man unter dem Projektstrukturplan (PSP)?",
+    "optionen": {
+      "A": "Ein Balkendiagramm, das Projekttermine visualisiert.",
+      "B": "Eine vollständige, hierarchisch gegliederte Darstellung aller Aufgaben und Lieferobjekte eines Projekts.",
+      "C": "Eine Kostenübersicht aller Projektphasen.",
+      "D": "Ein Netzplan zur Darstellung von Abhängigkeiten zwischen Vorgängen."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Der Projektstrukturplan (PSP) ist die vollständige, hierarchisch gegliederte Übersicht aller Teilaufgaben und Arbeitspakete. Er bildet die Basis für Termin-, Kosten- und Ressourcenplanung.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Probeklausur 1"
+  },
+  {
+    "id": "OQ005",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.3",
+    "icb4_bezeichnung": "Leistungsumfang und Lieferobjekte",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Erklären Sie die Struktur und den Zweck eines Projektstrukturplans (PSP) und erläutern Sie, wie er die Basis für alle weiteren Planungsschritte bildet.",
+    "musterloesung": [
+      "PSP-Struktur: Hierarchische Gliederung des Gesamtprojekts in Teilaufgaben (TA) und Arbeitspakete (AP). Typisch: 3-4 Hierarchieebenen. Codierung z.B. dekadisch: 1.0 Projekt, 1.1 Teilaufgabe, 1.1.1 Arbeitspaket.",
+      "Zweck: Vollständige Abbildung des gesamten Leistungsumfangs - was muss getan werden? Grundlage: Lastenheft/Pflichtenheft.",
+      "Basis für Terminplanung: Aus Arbeitspaketen werden Vorgänge im Netzplan/Gantt-Diagramm abgeleitet.",
+      "Basis für Kostenplanung: Jedem AP werden Aufwände und Kosten zugeordnet → Summierung ergibt Projektbudget.",
+      "Basis für Ressourcenplanung: Aus AP-Beschreibungen werden Ressourcenbedarfe (Personal, Material) abgeleitet.",
+      "Basis für Verantwortlichkeiten: RACI-Matrix basiert auf den APs des PSP.",
+      "Grundsatz: Was nicht im PSP steht, wird nicht getan und nicht bezahlt."
+    ],
+    "begruendung": "Der PSP ist das zentrale Planungsinstrument und Ausgangspunkt aller weiteren Planung - Pflichtthema Level D.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 1"
+  },
+  {
+    "id": "F010",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.4",
+    "icb4_bezeichnung": "Ablauf und Termine",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Was gibt der kritische Pfad in einem Netzplan an?",
+    "optionen": {
+      "A": "Den teuersten Abschnitt im Projekt.",
+      "B": "Die längste Abfolge von Vorgängen ohne Puffer, die die Projektdauer bestimmt.",
+      "C": "Den Weg mit den meisten Abhängigkeiten zwischen Arbeitspaketen.",
+      "D": "Den Pfad mit den höchsten Ressourcenanforderungen."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Der kritische Pfad ist die längste Vorgangskette ohne Puffer. Eine Verzögerung auf dem kritischen Pfad verlängert direkt das gesamte Projekt.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 2"
+  },
+  {
+    "id": "OQ032",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.4",
+    "icb4_bezeichnung": "Ablauf und Termine",
+    "bloom_niveau": 2,
+    "typ": "open_rechnung",
+    "frage": "Für die Inbetriebnahme einer Schweißroboteranlage liegen folgende Zeitschätzungen vor: optimistisch 10 Tage, wahrscheinlichst 15 Tage, pessimistisch 26 Tage. Berechnen Sie den PERT-Erwartungswert und die Standardabweichung. Was bedeutet eine hohe Standardabweichung für die Terminplanung?",
+    "gegeben": {
+      "a_optimistisch": 10,
+      "m_wahrscheinlichst": 15,
+      "b_pessimistisch": 26
+    },
+    "loesung_schritte": [
+      "Schritt 1: PERT-Erwartungswert: E = (a + 4m + b) / 6",
+      "Schritt 2: E = (10 + 4×15 + 26) / 6 = (10 + 60 + 26) / 6 = 96 / 6",
+      "Schritt 3: E = 16 Tage",
+      "Schritt 4: Standardabweichung: σ = (b - a) / 6",
+      "Schritt 5: σ = (26 - 10) / 6 = 16 / 6 ≈ 2,67 Tage",
+      "Schritt 6: Interpretation: σ ≈ 2,67 Tage bedeutet erhöhte Unsicherheit — entsprechend Puffer einplanen"
+    ],
+    "musterloesung": [
+      "E = (10 + 60 + 26) / 6 = 96 / 6 = 16 Tage",
+      "σ = (26 - 10) / 6 = 16 / 6 ≈ 2,67 Tage",
+      "Interpretation: Eine Standardabweichung von 2,67 Tagen zeigt relevante Schätzunsicherheit. Für die Terminplanung bedeutet das: Pufferzeit einplanen (z.B. 1–2 Sigma), Risikomaßnahmen vorbereiten und Termin nicht als fix kommunizieren."
+    ],
+    "begruendung": "Die Standardabweichung quantifiziert die Schätzunsicherheit. Hohe Werte (relativ zum Erwartungswert) verlangen mehr Terminpuffer und erhöhen die Notwendigkeit von Risikomaßnahmen.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Eigenentwicklung Level D",
+    "niveau_hinweis": "Level-D-Standard (Bloom 2)"
+  },
+  {
+    "id": "F056",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.5",
+    "icb4_bezeichnung": "Organisation, Information und Dokumentation",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Welche Mindestinhalte sollte ein Projektstatusbericht enthalten?",
+    "optionen": {
+      "A": "Nur die abgeschlossenen Arbeitspakete der letzten Periode.",
+      "B": "Aktueller Projektstand (Termin, Kosten, Leistung), erledigte Aufgaben, offene Punkte, nächste Schritte und Risiken.",
+      "C": "Ausschließlich die Kosten- und Terminabweichungen.",
+      "D": "Nur die Maßnahmen zur Risikominimierung."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Ein vollständiger Statusbericht informiert über: aktuellen Stand zu Terminen/Kosten/Leistung, was seit letztem Bericht getan wurde, offene Punkte, Risiken und die nächsten geplanten Schritte.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 1"
+  },
+  {
+    "id": "OQ021",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.5",
+    "icb4_bezeichnung": "Organisation, Information und Dokumentation",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Was ist eine RACI-Matrix und wie wird sie erstellt? Erstellen Sie ein Beispiel für drei Aufgaben eines Anlagenprojekts mit vier Rollen.",
+    "musterloesung": [
+      "RACI steht für: R = Responsible (führt die Aufgabe durch), A = Accountable (trägt Gesamtverantwortung, nur einer pro Aufgabe), C = Consulted (wird um Rat gefragt, Zwei-Wege-Kommunikation), I = Informed (wird informiert, Ein-Wege-Kommunikation).",
+      "Erstellung: 1) Aufgaben/Arbeitspakete in Zeilen, 2) Rollen/Personen in Spalten, 3) Buchstaben in Felder eintragen, 4) Prüfen: jede Zeile hat genau ein A.",
+      "Beispiel (Anlagenprojekt):",
+      "| Aufgabe | Projektleiter | Konstrukteur | Einkauf | Auftraggeber |",
+      "| Lasten­heft erstellen | A | C | I | R |",
+      "| Kompo­nenten beschaffen | I | C | R | A |",
+      "| Inbe­triebnahme | A | R | I | C |",
+      "Regel: Jede Zeile braucht genau ein A. Mehrere R sind möglich. Zu viele A = Verantwortungsunklarheit."
+    ],
+    "begruendung": "RACI-Matrizen sind ein praktisches Tool für Verantwortlichkeiten - Pflichtthema ICB 4.0 Practice 5.5.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Probeklausur 2"
+  },
+  {
+    "id": "F015",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.6",
+    "icb4_bezeichnung": "Qualität",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Wofür steht der Deming-Zyklus (PDCA)?",
+    "optionen": {
+      "A": "Plan, Design, Control, Act",
+      "B": "Plan, Do, Check, Act",
+      "C": "Prepare, Deploy, Check, Adjust",
+      "D": "Plan, Define, Control, Adjust"
+    },
+    "richtige_antwort": "B",
+    "begruendung": "PDCA steht für Plan (Planen), Do (Ausführen), Check (Überprüfen), Act (Handeln/Verbessern). Der Deming-Zyklus ist das Grundmodell des kontinuierlichen Verbesserungsprozesses.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Probeklausur 1"
+  },
+  {
+    "id": "OQ011",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.6",
+    "icb4_bezeichnung": "Qualität",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Erläutern Sie den Deming-Zyklus (PDCA) und zeigen Sie anhand eines konkreten Praxisbeispiels aus dem Maschinen- und Anlagenbau, wie er zur Qualitätsverbesserung eingesetzt wird.",
+    "musterloesung": [
+      "PDCA steht für: Plan (Planen), Do (Ausführen), Check (Überprüfen), Act (Handeln/Verbessern).",
+      "Plan: Problem analysieren, Ursachen identifizieren, Maßnahmen planen. Beispiel: Hohe Ausschussrate bei Bauteil X → Ursachenanalyse mit Ishikawa-Diagramm → Maßnahme: Prozessparameter anpassen.",
+      "Do: Maßnahmen im kleinen Maßstab umsetzen. Beispiel: Neue Prozessparameter in einer Schicht testen.",
+      "Check: Ergebnisse messen und mit Plan vergleichen. Beispiel: Ausschussrate von 5% auf 1,5% gesunken.",
+      "Act: Erfolgreiche Maßnahmen standardisieren und ausrollen. Beispiel: Neue Parameter in alle Schichten einführen, in Arbeitsanweisung dokumentieren.",
+      "Danach beginnt der Zyklus erneut - kontinuierliche Verbesserung (KVP)."
+    ],
+    "begruendung": "PDCA/Deming ist Pflichtthema IPMA Level D (5.6 Qualität) und häufig Prüfungsinhalt.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Probeklausur 1"
+  },
+  {
+    "id": "F118",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.7",
+    "icb4_bezeichnung": "Kosten und Finanzierung",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Was versteht man unter dem Begriff 'Kostenbaseline' (Cost Baseline) in der Projektplanung?",
+    "optionen": {
+      "A": "Die Summe aller bisher angefallenen Projektkosten.",
+      "B": "Der genehmigte Projektkostenplan, gegen den der tatsächliche Verbrauch gemessen wird.",
+      "C": "Der maximale Kostenrahmen, den das Unternehmen für Projekte insgesamt zur Verfügung stellt.",
+      "D": "Die Kalkulation des Lieferanten für externe Leistungen."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Die Kostenbaseline ist der formal genehmigte Kostenplan (zeitlich verteilt), der als Referenz für die Kostenkontrolle dient. Abweichungen werden gegen diese Baseline gemessen.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Eigenentwicklung Level D",
+    "niveau_hinweis": "Level-D-Standard (Bloom 1)"
+  },
+  {
+    "id": "OQ009",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.7",
+    "icb4_bezeichnung": "Kosten und Finanzierung",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Erläutern Sie die Earned-Value-Analyse (EVA). Nennen Sie die drei Grundkennzahlen, erklären Sie die Berechnung von Kosten- und Terminabweichung und interpretieren Sie folgende Werte: BCWS=100, BCWP=80, ACWP=90.",
+    "musterloesung": [
+      "Drei Grundkennzahlen: BCWS (Budgeted Cost of Work Scheduled) = Planwert, BCWP (Budgeted Cost of Work Performed) = Earned Value / Fertigstellungswert, ACWP (Actual Cost of Work Performed) = Ist-Kosten.",
+      "Kostenabweichung (CV): CV = BCWP - ACWP = 80 - 90 = -10 → negativ = über Budget (Kostenüberschreitung).",
+      "Terminabweichung (SV): SV = BCWP - BCWS = 80 - 100 = -20 → negativ = hinter dem Zeitplan (Terminverzug).",
+      "Interpretation: Das Projekt hat weniger geleistet als geplant (nur 80% des Planwerts erbracht) und dafür mehr ausgegeben als der erbrachten Leistung entspricht. Handlungsbedarf: Ursachenanalyse und Gegenmaßnahmen.",
+      "Kostenzahl (CPI): CPI = BCWP/ACWP = 80/90 = 0,89 → jeder investierte Euro bringt nur 89 Cent Leistung."
+    ],
+    "begruendung": "EVA ist ein häufiges Prüfungsthema bei IPMA Level D, oft mit Rechenaufgaben kombiniert.",
+    "schwierigkeit": "schwer",
+    "quelle_klausur": "Probeklausur 2"
+  },
+  {
+    "id": "F120",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.8",
+    "icb4_bezeichnung": "Ressourcen",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "In einem Montageprojekt werden drei Monteure benötigt, aber nur zwei sind verfügbar. Der kritische Pfad hat keinen Puffer. Was ist die richtige Vorgehensweise?",
+    "optionen": {
+      "A": "Das Projekt ohne Anpassung starten und Überstunden einplanen.",
+      "B": "Den Terminplan anpassen, externe Ressourcen prüfen oder den Auftraggeber über Verzögerungsrisiken informieren.",
+      "C": "Den Start des Projekts ohne Rücksprache verschieben.",
+      "D": "Die Anzahl der Vorgänge reduzieren, damit zwei Monteure reichen."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Ressourcenknappheit auf dem kritischen Pfad gefährdet direkt den Endtermin. Handlungsoptionen sind: Terminplan anpassen, Ressourcen extern beschaffen oder den Auftraggeber proaktiv informieren. Schweigen wäre ein Steuerungsfehler.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Eigenentwicklung Level D",
+    "niveau_hinweis": "Level-D-Standard (Bloom 2)"
+  },
+  {
+    "id": "OQ016",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.8",
+    "icb4_bezeichnung": "Ressourcen",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "In Ihrem Anlagenprojekt stellen Sie beim Ressourcenabgleich fest, dass Ihr erfahrenster Konstrukteur in den Wochen 8-10 mit 180% ausgelastet ist. Beschreiben Sie Ihre Analyse und drei mögliche Lösungsansätze.",
+    "musterloesung": [
+      "Analyse: Welche Vorgänge verursachen die Überlastung? Haben diese Vorgänge Puffer? Liegt mindestens einer auf dem kritischen Pfad?",
+      "Lösung 1 - Vorgänge verschieben: Nicht kritische Vorgänge (mit Puffer) aus Wochen 8-10 verschieben → Ressourcenkonflikt entzerren ohne Terminverlust.",
+      "Lösung 2 - Aufgaben umverteilen: Prüfen, welche Aufgaben des Konstrukteurs von anderen Teammitgliedern übernommen werden können → erfordert Qualifizierung oder extern einkaufen.",
+      "Lösung 3 - Externe Ressource hinzuziehen: Kurzfristig einen externen Konstrukteur engagieren → erhöht Kosten, löst aber das Kapazitätsproblem.",
+      "Falls keine Option hilft: Terminverhandlung mit Auftraggeber - transparent kommunizieren, dass Ressourcenmangel Terminverzug verursacht.",
+      "Wichtig: Konsequenzen für Magisches Dreieck (Termin, Kosten, Leistung) immer mitbetrachten."
+    ],
+    "begruendung": "Ressourcenplanung und -optimierung ist ein praktisches Kernthema der IPMA Level D Prüfung.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 2"
+  },
+  {
+    "id": "F126",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.9",
+    "icb4_bezeichnung": "Beschaffung und Partnerschaft",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Bei der Beschaffung externer Leistungen in einem Anlagenbauprojekt ist die Vertragsart entscheidend fuer die Risikoverteilung zwischen Auftraggeber und Auftragnehmer. Worin unterscheiden sich Festpreisvertrag und Aufwandsvertrag?",
+    "optionen": {
+      "A": "Beim Festpreisvertrag wird der Preis vorab fixiert (Risiko von Mehrkosten beim Auftragnehmer), beim Aufwandsvertrag wird nach tatsaechlich erbrachter Leistung abgerechnet (Risiko beim Auftraggeber).",
+      "B": "Festpreisvertraege sind nur fuer Materiallieferungen zulaessig, Aufwandsvertraege nur fuer Dienstleistungen.",
+      "C": "Beim Festpreisvertrag traegt der Auftraggeber das Kostenrisiko, beim Aufwandsvertrag der Auftragnehmer.",
+      "D": "Aufwandsvertraege duerfen in der EU nur bei oeffentlichen Auftraggebern eingesetzt werden."
+    },
+    "richtige_antwort": "A",
+    "begruendung": "Festpreis und Aufwand sind die beiden Grundformen der Verguetung. Beim Festpreis kennt der Auftraggeber die Gesamtkosten vorab, das Mehrkostenrisiko liegt beim Auftragnehmer. Beim Aufwandsvertrag (z. B. nach Stunden- oder Tagessaetzen) zahlt der Auftraggeber den tatsaechlichen Aufwand und traegt damit das Kostenrisiko. Welche Form geeignet ist, haengt von Spezifikationsklarheit und Risikoneigung ab.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Eigenentwicklung Level D - Deck-konform",
+    "niveau_hinweis": "Level-D-Standard (Bloom 2)"
+  },
+  {
+    "id": "OQ018",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.9",
+    "icb4_bezeichnung": "Beschaffung und Partnerschaft",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Erläutern Sie die Unterschiede zwischen Dienstvertrag, Werkvertrag und Kaufvertrag im Projektkontext und nennen Sie je ein Anwendungsbeispiel aus dem Maschinen- und Anlagenbau.",
+    "musterloesung": [
+      "Kaufvertrag: Übereignung einer Sache gegen Kaufpreis. Beispiel: Kauf einer Standard-Hydraulikpumpe. Keine Herstellungsverpflichtung, nur Lieferung.",
+      "Dienstvertrag: Erbringung einer Leistung (Tätigsein), nicht eines Ergebnisses. Beispiel: Vergabe von Ingenieurstunden an ein Beratungsunternehmen. Der Auftragnehmer schuldet Arbeitsstunden, nicht ein fertiges Produkt.",
+      "Werkvertrag: Herstellung eines Werks mit Erfolgsverpflichtung. Beispiel: Beauftragung eines Lieferanten zur Entwicklung und Lieferung einer kundenspezifischen Steuerungsanlage. Der Auftragnehmer schuldet das funktionsfähige Werk.",
+      "Wichtig für Projekte: Werkvertrag löst Gewährleistungsrechte aus (Mängelhaftung). Beim Dienstvertrag trägt der Auftraggeber das Ergebnisrisiko.",
+      "Praxis: Im Anlagenbau meist Werkvertrag für das Gesamtprojekt, Dienstverträge für Beratung/Engineering-Ressourcen."
+    ],
+    "begruendung": "Vertragsarten sind Bestandteil der ICB 4.0 Practice 5.9 Beschaffung - wichtig für M&A-Projekte.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 5"
+  },
+  {
+    "id": "F059",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.10",
+    "icb4_bezeichnung": "Planung und Steuerung",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Was ist der Unterschied zwischen Plan, Soll und Ist in der Projektsteuerung?",
+    "optionen": {
+      "A": "Plan, Soll und Ist sind unterschiedliche Bezeichnungen für denselben Wert.",
+      "B": "Plan = ursprüngliche Baseline; Soll = fortgeschriebener Plan unter Berücksichtigung genehmigter Änderungen; Ist = tatsächlicher Ist-Zustand.",
+      "C": "Plan = Ist-Zustand; Soll = Zukunftsplanung; Ist = vergangene Werte.",
+      "D": "Soll und Ist sind identisch, der Plan ist die übergeordnete Strategie."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Im Projektcontrolling: Plan = ursprüngliche Planung (Baseline); Soll = fortgeschriebener Plan mit genehmigten Änderungen (Stichtag); Ist = tatsächlich erzielte Werte. Vergleiche zeigen Abweichungen.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 1"
+  },
+  {
+    "id": "OQ037",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.10",
+    "icb4_bezeichnung": "Planung und Steuerung",
+    "bloom_niveau": 2,
+    "typ": "open_rechnung",
+    "frage": "Eine Foerderanlage wird im Rahmen eines Anlagenbauprojekts errichtet und mit der Earned-Value-Analyse ueberwacht. Zum Statusstichtag in Projektmitte liegen folgende Werte vor: Planwert (PV) = 400.000 €, Earned Value (EV) = 320.000 €, Ist-Kosten (AC) = 360.000 €. Berechnen Sie die Planabweichung (SV), Kostenabweichung (CV), den Schedule Performance Index (SPI) und den Cost Performance Index (CPI). Interpretieren Sie jedes der vier Ergebnisse fuer den Projektstatus.",
+    "gegeben": {
+      "PV": 400000,
+      "EV": 320000,
+      "AC": 360000
+    },
+    "loesung_schritte": [
+      "Schritt 1: Planabweichung SV = EV - PV = 320.000 - 400.000 = -80.000 €",
+      "Schritt 2: Kostenabweichung CV = EV - AC = 320.000 - 360.000 = -40.000 €",
+      "Schritt 3: Schedule Performance Index SPI = EV / PV = 320.000 / 400.000 = 0,80",
+      "Schritt 4: Cost Performance Index CPI = EV / AC = 320.000 / 360.000 ≈ 0,89",
+      "Schritt 5: Interpretation SV negativ -> Terminverzug (80.000 € weniger geleistet als geplant)",
+      "Schritt 6: Interpretation CV negativ -> Kostenueberschreitung (40.000 € teurer als der erbrachte Wert)",
+      "Schritt 7: Interpretation SPI = 0,80 -> 20 % hinter dem Zeitplan",
+      "Schritt 8: Interpretation CPI ≈ 0,89 -> fuer jeden ausgegebenen Euro werden nur 89 Cent Leistung erbracht"
+    ],
+    "musterloesung": [
+      "SV = 320.000 - 400.000 = -80.000 € -> Terminverzug",
+      "CV = 320.000 - 360.000 = -40.000 € -> Kostenueberschreitung",
+      "SPI = 320.000 / 400.000 = 0,80 -> Projekt liegt 20 % hinter dem Zeitplan",
+      "CPI = 320.000 / 360.000 ≈ 0,89 -> Kosteneffizienz unter Plan (11 % zu teuer)",
+      "Gesamtbild: beide Indices < 1, Projekt liegt sowohl terminlich als auch kostenseitig zurueck. Steuerungsmassnahmen sind erforderlich (Ressourcen pruefen, Scope challengen, Eskalation an Lenkungsausschuss)."
+    ],
+    "begruendung": "Die vier Kennzahlen aus der EVA bilden den Standardrahmen zur Beurteilung des Projektstatus auf Kosten- und Terminebene. Ein vollstaendiges Bild entsteht erst, wenn alle vier interpretiert werden — einzelne Werte ohne Kontext sind irrefuehrend.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Eigenentwicklung Level D - Deck-konform",
+    "niveau_hinweis": "Level-D-Standard (Bloom 2)"
+  },
+  {
+    "id": "F024",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.11",
+    "icb4_bezeichnung": "Chancen und Risiken",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Wie berechnet sich der Risikowert (Risk Score) in der qualitativen Risikoanalyse?",
+    "optionen": {
+      "A": "Risikowert = Schadenshöhe + Eintrittswahrscheinlichkeit",
+      "B": "Risikowert = Eintrittswahrscheinlichkeit × Schadensausmaß",
+      "C": "Risikowert = Schadenshöhe ÷ verfügbares Budget",
+      "D": "Risikowert = Anzahl der Risiken × Projektdauer"
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Der Risikowert ergibt sich aus der Multiplikation von Eintrittswahrscheinlichkeit und Schadensausmaß. Risiken mit hohem Wert erfordern vorrangige Gegenmaßnahmen.",
+    "schwierigkeit": "leicht",
+    "quelle_klausur": "Probeklausur 1"
+  },
+  {
+    "id": "OQ002",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.11",
+    "icb4_bezeichnung": "Chancen und Risiken",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Beschreiben Sie den vollständigen Risikomanagementprozess für ein Anlagenprojekt mit einem Volumen von 2 Mio. EUR. Nennen Sie für jeden Schritt eine konkrete Maßnahme und ein praxisnahes Beispielrisiko.",
+    "musterloesung": [
+      "Schritt 1 - Identifikation: Brainstorming, Checklisten, Expertenbefragung → Beispielrisiko: 'Schlüssellieferant für Hydraulikkomponenten liefert 4 Wochen zu spät.'",
+      "Schritt 2 - Analyse: Eintrittswahrscheinlichkeit und Schadensausmaß bewerten → EW: 30%, Schaden: 60.000 EUR → Risikowert: 18.000 EUR.",
+      "Schritt 3 - Maßnahmen entwickeln: Für jedes wesentliche Risiko eine Strategie wählen (vermeiden, reduzieren, transferieren, akzeptieren) → hier: zweiten Lieferanten qualifizieren (Reduktion).",
+      "Schritt 4 - Überwachen und Steuern: Risiken im Risikoregister regelmäßig aktualisieren, neue Risiken aufnehmen, erledigte Maßnahmen abhaken.",
+      "Risikoregister enthält: Risiko-ID, Beschreibung, Wahrscheinlichkeit, Auswirkung, Risikowert, Maßnahme, Verantwortlicher, Status."
+    ],
+    "begruendung": "Der vollständige Risikomanagementprozess ist ein Kernthema der IPMA Level D Prüfung und wird häufig als offene Frage gestellt.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 1"
+  },
+  {
+    "id": "F076",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.12",
+    "icb4_bezeichnung": "Stakeholder",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Was sind die typischen Schritte des Stakeholdermanagements in der richtigen Reihenfolge?",
+    "optionen": {
+      "A": "Analysieren, Identifizieren, Maßnahmen planen, Umsetzen, Überwachen",
+      "B": "Identifizieren, Analysieren, Maßnahmen/Strategien planen, Umsetzen, Überwachen (Monitoring)",
+      "C": "Kommunizieren, Analysieren, Identifizieren, Maßnahmen umsetzen, Abschließen",
+      "D": "Planen, Identifizieren, Bewerten, Kommunizieren, Abschließen"
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Der Stakeholdermanagement-Prozess: 1. Identifizieren (wer ist betroffen?), 2. Analysieren (Macht/Interesse/Einstellung), 3. Strategien/Maßnahmen entwickeln, 4. Umsetzen, 5. Überwachen und anpassen.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 2"
+  },
+  {
+    "id": "OQ004",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.12",
+    "icb4_bezeichnung": "Stakeholder",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Für ein Umbauprojekt in einer Produktionshalle führen Sie eine Stakeholderanalyse durch. Beschreiben Sie die Vorgehensweise Schritt für Schritt und nennen Sie für jeden Schritt ein konkretes Praxisbeispiel.",
+    "musterloesung": [
+      "Schritt 1 - Identifikation: Alle Personen/Gruppen erfassen, die vom Projekt betroffen sind oder es beeinflussen können → Beispiele: Produktionsleitung, Betriebsrat, Anlagenbediener, externe Lieferanten, TÜV.",
+      "Schritt 2 - Analyse: Für jeden Stakeholder Macht/Einfluss und Interesse/Einstellung bewerten → z.B. Betriebsrat: hohe Macht, negative Einstellung (Angst vor Arbeitsplatzverlust).",
+      "Schritt 3 - Strategie festlegen: Je nach Position im Stakeholderportfolio Strategie wählen → Betriebsrat: partizipativ einbinden, früh informieren, Bedenken ernst nehmen.",
+      "Schritt 4 - Maßnahmenplan: Wer macht was bis wann? → z.B. monatliche Informationsrunde mit Betriebsrat ab Projektmonat 1.",
+      "Schritt 5 - Monitoring: Regelmäßig prüfen, ob sich Einstellungen geändert haben, Maßnahmen anpassen."
+    ],
+    "begruendung": "Stakeholdermanagement ist ein Kernelement der ICB 4.0 und regelmäßiger Prüfungsinhalt.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 2"
+  },
+  {
+    "id": "F069",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.13",
+    "icb4_bezeichnung": "Change und Transformation",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Welche Aussage zu Change Management in Projekten ist korrekt?",
+    "optionen": {
+      "A": "Change Management ist nur bei IT-Projekten relevant.",
+      "B": "Change Management umfasst alle Maßnahmen, die sicherstellen, dass betroffene Personen die Veränderung verstehen, akzeptieren und mitgestalten.",
+      "C": "Change Management beschreibt ausschließlich die formale Verwaltung von Projektänderungsanträgen.",
+      "D": "Change Management ist Aufgabe der Personalabteilung, nicht des Projektleiters."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Change Management adressiert den 'menschlichen Faktor' bei Veränderungen: Wie werden Betroffene informiert, eingebunden, befähigt? Ziel ist Akzeptanz und Umsetzungserfolg - weit mehr als die reine Verwaltung von Änderungsanträgen.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 5"
+  },
+  {
+    "id": "OQ020",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.13",
+    "icb4_bezeichnung": "Change und Transformation",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Erläutern Sie das 3-Phasen-Modell von Kurt Lewin und beschreiben Sie, wie es auf ein Digitalisierungsprojekt in einem Maschinenbauunternehmen angewendet werden kann.",
+    "musterloesung": [
+      "Phase 1 - Auftauen (Unfreezing): Bereitschaft zur Veränderung erzeugen - bestehende Strukturen und Gewohnheiten hinterfragen. Anwendung: Mitarbeiter über Notwendigkeit der Digitalisierung informieren, Status quo kritisch analysieren, Dringlichkeit kommunizieren.",
+      "Phase 2 - Bewegen/Verändern (Moving): Die Veränderung durchführen - neue Prozesse, Systeme, Verhaltensweisen einführen. Anwendung: Neue Software einführen, Mitarbeiter schulen, Prozesse anpassen, Pilotprojekte starten.",
+      "Phase 3 - Einfrieren (Refreezing): Neue Strukturen stabilisieren und dauerhaft verankern. Anwendung: Neue Prozesse in Standards und Stellenbeschreibungen integrieren, Erfolge sichtbar machen, Lessons Learned durchführen.",
+      "Wichtig: Die 'Auftau'-Phase wird in der Praxis oft unterschätzt - wer Widerstände ignoriert, scheitert in Phase 2.",
+      "Grenzen des Modells: In der heutigen VUCA-Welt sind Veränderungen nicht sequenziell - das Modell eignet sich besser für planbare Transformationen."
+    ],
+    "begruendung": "Change-Management-Modelle sind Pflichtthema ICB 4.0 Practice 5.13.",
+    "schwierigkeit": "mittel",
+    "quelle_klausur": "Probeklausur 5"
+  }
+]
