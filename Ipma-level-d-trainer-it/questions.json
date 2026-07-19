@@ -1,0 +1,1115 @@
+[
+  {
+    "id": "F107",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.1",
+    "icb4_bezeichnung": "Strategia",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Cosa intende la ICB 4.0 per contributo di un progetto alla strategia aziendale?",
+    "optionen": {
+      "A": "Il progetto deve soddisfare contemporaneamente tutti gli obiettivi strategici dell'azienda.",
+      "B": "Ogni progetto dovrebbe contribuire al raggiungimento di almeno un obiettivo strategico aziendale e tale contributo dovrebbe essere chiaramente indicato.",
+      "C": "La strategia è esclusivamente compito della direzione aziendale, non del project manager.",
+      "D": "Un progetto è strategico non appena ha un budget superiore a 500.000 euro."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Secondo la ICB 4.0, i progetti devono essere inseriti nel quadro strategico dell'organizzazione. Il project manager deve conoscere e saper comunicare il contributo strategico del progetto.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Sviluppo proprio Livello D",
+    "niveau_hinweis": "Standard Livello D (Bloom 1)"
+  },
+  {
+    "id": "OQ017",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.1",
+    "icb4_bezeichnung": "Strategia",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Spiegate il concetto di 'successo del progetto' secondo la ICB 4.0. Distinguete tra successo del progetto e successo del prodotto e indicate tre criteri per ciascuno.",
+    "musterloesung": [
+      "Successo del progetto: il progetto è stato completato nell'ambito pianificato (triangolo magico)? Criteri: 1) rispetto dei tempi, 2) rispetto del budget, 3) prestazione/qualità concordata raggiunta.",
+      "Successo del prodotto (successo del beneficio): il risultato del progetto genera il beneficio desiderato? Criteri: 1) soddisfazione del cliente, 2) obiettivi di business raggiunti (ad es. aumento di produttività), 3) accettazione da parte degli utenti.",
+      "Aspetto importante: un progetto può essere concluso 'con successo' (tempi, costi, prestazioni ok) e comunque non avere successo di prodotto - ad esempio perché il sistema sviluppato non viene accettato.",
+      "Viceversa: un progetto con ritardo nei tempi può comunque generare un elevato successo di prodotto.",
+      "ICB 4.0: il successo sostenibile del progetto considera entrambe le dimensioni e include la soddisfazione degli stakeholder."
+    ],
+    "begruendung": "Successo del progetto rispetto a successo del prodotto è un concetto importante della ICB 4.0 e argomento frequente d'esame.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 3"
+  },
+  {
+    "id": "F043",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.2",
+    "icb4_bezeichnung": "Governance, strutture e processi",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Quale compito ha un comitato direttivo (Steering Committee) nel progetto?",
+    "optionen": {
+      "A": "La gestione operativa quotidiana del progetto e il controllo dei membri del team.",
+      "B": "Decisioni strategiche, approvazione delle fasi e delle risorse, nonché escalation dei problemi che il project manager non può risolvere.",
+      "C": "Il controllo tecnico della qualità di tutti i risultati del progetto.",
+      "D": "L'elaborazione della struttura di scomposizione del progetto insieme al team di progetto."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Il comitato direttivo prende decisioni strategiche: approva i passaggi di fase, rilascia risorse e budget, riceve le escalation e rappresenta gli interessi del committente.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 3"
+  },
+  {
+    "id": "OQ008",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.2",
+    "icb4_bezeichnung": "Governance, strutture e processi",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Descrivete le tre classiche forme di organizzazione dei progetti (organizzazione a staff, a matrice e pura) e indicate per ciascuna un caso d'uso tipico, un vantaggio e uno svantaggio.",
+    "musterloesung": [
+      "1) Organizzazione a staff: il project manager non ha potere di comando, coordina soltanto. Vantaggio: nessuna interferenza nell'organizzazione di linea. Svantaggio: scarsa capacità di far valere le decisioni. Applicazione: piccoli progetti senza conflitti di risorse.",
+      "2) Organizzazione a matrice: il project manager condivide il potere di comando con i responsabili di linea. Vantaggio: accesso più flessibile alle risorse. Svantaggio: conflitti tra la direzione di progetto e quella di linea. Applicazione: progetti di media grandezza in aziende con un'organizzazione di linea stabile.",
+      "3) Organizzazione di progetto pura (autonoma): il project manager ha pieno potere di comando sul proprio team. Vantaggio: responsabilità chiara e decisioni rapide. Svantaggio: le risorse vengono sottratte alla linea - costoso. Applicazione: progetti grandi e strategici."
+    ],
+    "begruendung": "Le forme di organizzazione dei progetti sono un argomento obbligatorio della ICB 4.0 Perspective (3.2 Governance).",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 5"
+  },
+  {
+    "id": "F045",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.3",
+    "icb4_bezeichnung": "Compliance, standard e regolamenti",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Cosa si intende per 'Compliance' nel contesto del progetto?",
+    "optionen": {
+      "A": "Il rispetto di tutte le leggi, norme, disposizioni e standard etici interni ed esterni.",
+      "B": "La completezza della documentazione di progetto alla fine di un progetto.",
+      "C": "La corrispondenza del risultato del progetto con le specifiche tecniche.",
+      "D": "L'approvazione finanziaria di tutte le spese del progetto da parte della direzione aziendale."
+    },
+    "richtige_antwort": "A",
+    "begruendung": "La Compliance significa il rispetto di tutte le leggi rilevanti (ad es. sicurezza sul lavoro, protezione dei dati), norme (DIN, ISO), linee guida interne e standard etici applicabili al progetto.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Prova d'esame 3"
+  },
+  {
+    "id": "OQ027",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.3",
+    "icb4_bezeichnung": "Compliance, standard e regolamenti",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Elencate e spiegate quattro requisiti di compliance esterni rilevanti per un tipico progetto di costruzione di impianti in Germania.",
+    "musterloesung": [
+      "1) Direttiva Macchine / Marcatura CE: le macchine devono soddisfare i requisiti fondamentali di sicurezza e salute ed essere dotate di marcatura CE.",
+      "2) Regolamento sulla sicurezza operativa (BetrSichV): disciplina l'utilizzo sicuro delle attrezzature di lavoro - rilevante per la messa in servizio e la consegna al gestore.",
+      "3) Sicurezza sul lavoro / norme DGUV: norme antinfortunistiche degli enti assicurativi di categoria - rilevanti per le fasi di montaggio in cantiere.",
+      "4) Diritto ambientale / BImSchG (legge federale sulla protezione dalle emissioni): per impianti con emissioni (rumore, gas di scarico, calore residuo) devono essere rispettati permessi e valori limite.",
+      "Ulteriore esempio: GDPR (protezione dei dati) se gli impianti raccolgono dati; direttiva sulle attrezzature a pressione per i recipienti a pressione.",
+      "Conseguenza per il PM: i requisiti di compliance devono essere identificati all'inizio del progetto e integrati nel piano di progetto."
+    ],
+    "begruendung": "La Compliance è un argomento obbligatorio della ICB 4.0 Perspective 3.3 - particolarmente rilevante nel contesto M&A.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 3"
+  },
+  {
+    "id": "F046",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.4",
+    "icb4_bezeichnung": "Potere e interessi",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Quali tipi di potere può utilizzare un project manager in un progetto?",
+    "optionen": {
+      "A": "Solo il potere formale derivante dalla propria posizione gerarchica.",
+      "B": "Potere formale (posizione), potere esperto (competenza tecnica), potere relazionale (rete di contatti) e potere di identificazione (modello di riferimento).",
+      "C": "Esclusivamente potere informale, poiché i project manager non hanno potere di comando.",
+      "D": "Solo potere esperto e potere relazionale, poiché i project manager non hanno potere formale."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "I project manager possono utilizzare diverse fonti di potere: potere formale (ruolo/posizione), potere esperto (competenza tecnica), potere relazionale (rete personale) e potere di identificazione (effetto di modello di riferimento).",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 5"
+  },
+  {
+    "id": "OQ024",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.4",
+    "icb4_bezeichnung": "Potere e interessi",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Spiegate le quattro fonti di potere che un project manager può utilizzare e associate a ciascuna un esempio pratico.",
+    "musterloesung": [
+      "1) Potere formale (potere di posizione): si basa sul ruolo ufficiale e sui relativi diritti di comando. Esempio: il project manager impartisce a un membro del team un'istruzione diretta nell'ambito del proprio ruolo di progetto.",
+      "2) Potere esperto (competenza tecnica): si basa su conoscenze tecniche o metodologiche particolari. Esempio: il project manager convince il team grazie alla sua competenza nella tecnologia degli impianti.",
+      "3) Potere relazionale (rete di contatti): si basa su relazioni personali e fiducia. Esempio: il project manager ottiene rapidamente risorse da un responsabile di reparto amico, grazie al buon rapporto che ha con lui.",
+      "4) Potere di identificazione (effetto di modello di riferimento): gli altri vogliono comportarsi come il project manager perché lo vedono come un modello. Esempio: il team lavora con motivazione perché il project manager vive personalmente standard elevati e comunica con entusiasmo.",
+      "Pratica: nelle organizzazioni a matrice senza potere di comando formale, il potere esperto e quello relazionale sono particolarmente importanti."
+    ],
+    "begruendung": "Le fonti di potere sono conoscenze di base della ICB 4.0 Perspective 3.4 - rilevanti per il ruolo di project manager.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Prova d'esame 5"
+  },
+  {
+    "id": "F047",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.5",
+    "icb4_bezeichnung": "Cultura e valori",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Perché la cultura aziendale e di progetto è rilevante per il successo del progetto?",
+    "optionen": {
+      "A": "La cultura è irrilevante, poiché solo la competenza tecnica determina il successo del progetto.",
+      "B": "Influenza il modo in cui vengono prese le decisioni, risolti i conflitti e condivise le informazioni - e quindi direttamente il risultato del progetto.",
+      "C": "La cultura è rilevante solo nei progetti internazionali con diverse nazionalità.",
+      "D": "La cultura di progetto riguarda esclusivamente il livello dirigenziale, non il team operativo."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "La cultura aziendale e di progetto plasma i comportamenti, i processi decisionali, la comunicazione e la collaborazione. Una cultura aperta e tollerante verso gli errori favorisce l'apprendimento e il successo del progetto.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 3"
+  },
+  {
+    "id": "OQ012",
+    "icb4_bereich": "Perspective",
+    "icb4_element": "3.5",
+    "icb4_bezeichnung": "Cultura e valori",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Un'azienda ha una cultura aziendale in cui gli errori sono un tabù ('non ammettere gli errori'). State dirigendo un progetto di sviluppo e volete costruire una cultura di progetto tollerante verso gli errori. Quali misure concrete adottate?",
+    "musterloesung": [
+      "Misura 1: istituire sessioni di lessons learned - regolarmente, non solo alla fine del progetto. Gli errori vengono trattati come opportunità di apprendimento.",
+      "Misura 2: comunicare apertamente i propri errori come project manager e mostrare come gestirli - funzione di modello di riferimento.",
+      "Misura 3: introdurre retrospettive (ad es. dopo ogni fase del progetto): cosa è andato bene? Cosa possiamo migliorare? Nessuna attribuzione di colpe.",
+      "Misura 4: istituire un sistema di allerta precoce - incoraggiare i membri del team a segnalare i problemi presto, senza temere conseguenze.",
+      "Misura 5: riconoscere e lodare esplicitamente i successi e il coraggio di essere aperti.",
+      "Aspetto importante: il cambiamento culturale richiede tempo e coerenza - affermazioni e comportamenti devono coincidere."
+    ],
+    "begruendung": "Cultura e valori (ICB 4.0 Perspective 3.5) è un argomento d'esame crescente, poiché riflette direttamente la competenza di leadership.",
+    "schwierigkeit": "difficile",
+    "quelle_klausur": "Prova d'esame 3"
+  },
+  {
+    "id": "F039",
+    "icb4_bereich": "People",
+    "icb4_element": "4.1",
+    "icb4_bezeichnung": "Autoriflessione e autogestione",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Cosa descrive la matrice di Eisenhower come strumento di autogestione?",
+    "optionen": {
+      "A": "Un metodo per la definizione delle priorità dei progetti in base alla dimensione del budget e alla rilevanza strategica.",
+      "B": "Una matrice a 4 quadranti che suddivide i compiti in livelli di priorità in base a importanza e urgenza.",
+      "C": "Un modello di leadership che disciplina la delega dei compiti in base alla competenza dei collaboratori.",
+      "D": "Un modello di ruoli di squadra per l'assegnazione delle funzioni di progetto."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "La matrice di Eisenhower suddivide i compiti in quattro quadranti: importante/urgente (fare subito), importante/non urgente (pianificare), non importante/urgente (delegare), non importante/non urgente (eliminare).",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Prova d'esame 3"
+  },
+  {
+    "id": "OQ023",
+    "icb4_bereich": "People",
+    "icb4_element": "4.1",
+    "icb4_bezeichnung": "Autoriflessione e autogestione",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Siete project manager e notate che nelle fasi di stress tendete a svolgere tutti i compiti da soli invece di delegare. Quali misure vi aiutano ad attuare la delega in modo sistematico?",
+    "musterloesung": [
+      "Autoriflessione: riconoscere il proprio comportamento è il primo passo. Analizzare gli schemi: quando tendo a fare tutto da solo? Perché? (Paura di perdere il controllo, sfiducia, pressione del tempo?).",
+      "Applicare il principio di Eisenhower: distinguere con coerenza tra i compiti che devo svolgere personalmente (importanti e strategici) e quelli che possono essere delegati.",
+      "Preparare la delega: comunicare una descrizione chiara del compito, l'obiettivo, le risorse, il margine decisionale e la scadenza.",
+      "Costruire fiducia: lasciare crescere consapevolmente i membri del team con compiti più piccoli, dare feedback, non intervenire subito.",
+      "Controllo senza microgestione: milestone concordate e check-in invece di controllo costante - dà margine di manovra e crea fiducia.",
+      "Riflessione: dopo le fasi di stress, riflettere sistematicamente su cosa avrebbe potuto essere delegato."
+    ],
+    "begruendung": "Autogestione e delega sono argomenti centrali della ICB 4.0 People 4.1 - particolarmente rilevanti per gli ingegneri in nuovi ruoli di project management.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 3"
+  },
+  {
+    "id": "F050",
+    "icb4_bereich": "People",
+    "icb4_element": "4.2",
+    "icb4_bezeichnung": "Integrità e affidabilità",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Cosa significa integrità nel contesto della ICB 4.0 per un project manager?",
+    "optionen": {
+      "A": "Competenza tecnica e pianificazione del progetto priva di errori.",
+      "B": "Agire con coerenza secondo i propri valori e principi etici, anche sotto pressione.",
+      "C": "La capacità di redigere in modo completo e corretto tutti i documenti di progetto.",
+      "D": "La lealtà verso il committente, indipendentemente dai propri valori."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "L'integrità secondo la ICB 4.0 significa agire con coerenza secondo i propri valori e principi etici, anche quando è scomodo. Ciò include onestà, equità e affidabilità.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 3"
+  },
+  {
+    "id": "F115",
+    "icb4_bereich": "People",
+    "icb4_element": "4.2",
+    "icb4_bezeichnung": "Integrità e affidabilità",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Un project manager viene a sapere che un membro del team ha documentato in modo scorretto le ore di lavoro. È amico di questa persona. Come si comporta in modo integro?",
+    "optionen": {
+      "A": "Copre l'accaduto per non mettere a rischio l'amicizia.",
+      "B": "Parla prima personalmente con il membro del team, documenta l'accaduto e lo segnala secondo le regole aziendali.",
+      "C": "Ignora la documentazione scorretta, purché il budget sia rispettato.",
+      "D": "Sostituisce immediatamente la persona con un altro membro del team."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "L'integrità richiede un comportamento conforme alle regole indipendentemente dalle relazioni personali. Il colloquio diretto è rispettoso, ma l'obbligo di segnalazione resta comunque valido. Coprire il fatto costituirebbe una violazione dell'integrità.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Sviluppo proprio Livello D",
+    "niveau_hinweis": "Standard Livello D (Bloom 2)"
+  },
+  {
+    "id": "F031",
+    "icb4_bereich": "People",
+    "icb4_element": "4.3",
+    "icb4_bezeichnung": "Comunicazione personale",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Il modello di comunicazione di Watzlawick afferma che ogni comunicazione ha un aspetto di contenuto e uno di relazione. Cosa significa l'assioma 'Non si può non comunicare'?",
+    "optionen": {
+      "A": "Ogni persona deve parlare costantemente per comunicare.",
+      "B": "Anche il silenzio o il non agire sono una forma di comunicazione.",
+      "C": "La comunicazione scritta è sempre meno efficace di quella orale.",
+      "D": "I segnali non verbali sono irrilevanti per la comunicazione di progetto."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Il primo assioma di Watzlawick afferma: non si può non comunicare. Anche il silenzio, il distogliere lo sguardo o l'inattività trasmettono un messaggio e costituiscono quindi comunicazione.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 2"
+  },
+  {
+    "id": "OQ014",
+    "icb4_bereich": "People",
+    "icb4_element": "4.3",
+    "icb4_bezeichnung": "Comunicazione personale",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Spiegate il modello delle quattro orecchie di Schulz von Thun sulla base di un esempio concreto di progetto. Quali conseguenze pratiche ha per la comunicazione come project manager?",
+    "musterloesung": [
+      "Il modello delle quattro orecchie: ogni messaggio ha quattro lati: 1) lato del contenuto (cosa viene comunicato?), 2) lato dell'autorivelazione (cosa dico di me stesso?), 3) lato della relazione (come vedo il destinatario?), 4) lato dell'appello (cosa voglio dal destinatario?).",
+      "Esempio: il project manager dice: 'La documentazione ancora una volta non è pronta.' - Lato del contenuto: manca la documentazione. - Autorivelazione: sono infastidito/sotto pressione. - Lato della relazione: tu non lavori in modo affidabile. - Appello: consegna la documentazione adesso.",
+      "Problema: il collaboratore potrebbe percepire soprattutto il lato della relazione ('vengo criticato') e reagire in modo difensivo.",
+      "Conseguenza per il project manager: prestare attenzione consapevole alla formulazione - scegliere un linguaggio oggettivo, messaggi in prima persona invece di accuse in seconda persona, formulare chiaramente gli appelli.",
+      "Formulazione migliore: 'Ho bisogno della documentazione entro domani alle 12 per il colloquio con il cliente. Di cosa hai bisogno perché funzioni?'"
+    ],
+    "begruendung": "I modelli di comunicazione sono un argomento obbligatorio della ICB 4.0 People 4.3.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 2"
+  },
+  {
+    "id": "F096",
+    "icb4_bereich": "People",
+    "icb4_element": "4.4",
+    "icb4_bezeichnung": "Relazioni e impegno",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Quale differenza fa se un project manager cura le relazioni con gli stakeholder in modo reattivo o proattivo?",
+    "optionen": {
+      "A": "Nessuna — gli stakeholder reagiscono sempre allo stesso modo, indipendentemente da come viene curata la relazione.",
+      "B": "La cura proattiva delle relazioni costruisce fiducia prima che sorgano conflitti; la cura reattiva interviene solo quando ci sono problemi.",
+      "C": "La cura reattiva è più efficiente, perché non vengono sprecate risorse.",
+      "D": "La cura proattiva ha senso solo con gli stakeholder esterni."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Una gestione proattiva delle relazioni crea una solida base di fiducia che funge da cuscinetto in caso di conflitto. L'azione reattiva, invece, inizia spesso quando le posizioni si sono già irrigidite.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Sviluppo proprio Livello D",
+    "niveau_hinweis": "Standard Livello D (Bloom 2)"
+  },
+  {
+    "id": "F127",
+    "icb4_bereich": "People",
+    "icb4_element": "4.4",
+    "icb4_bezeichnung": "Relazioni e impegno",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "La teoria dei due fattori di Herzberg distingue tra motivatori e fattori igienici. Quale delle seguenti affermazioni descrive correttamente questa teoria?",
+    "optionen": {
+      "A": "Motivatori e fattori igienici agiscono in modo identico e sono sostanzialmente intercambiabili.",
+      "B": "I fattori igienici (ad es. retribuzione, condizioni di lavoro) generano soddisfazione attiva, i motivatori prevengono l'insoddisfazione.",
+      "C": "I motivatori (ad es. riconoscimento, responsabilità, avanzamento) generano soddisfazione; i fattori igienici (ad es. retribuzione, condizioni di lavoro) prevengono l'insoddisfazione, ma di per sé non creano motivazione.",
+      "D": "Solo i fattori estrinseci come stipendio e bonus agiscono in modo duraturo sulla motivazione."
+    },
+    "richtige_antwort": "C",
+    "begruendung": "Herzberg mostra: soddisfazione e insoddisfazione non sono due poli di un'unica scala, ma due dimensioni indipendenti. I fattori igienici prevengono l'insoddisfazione quando sono soddisfatti, ma non creano motivazione. La motivazione autentica nasce solo dai motivatori - lavoro interessante, responsabilità, riconoscimento, possibilità di sviluppo. Per i project manager questo significa: la retribuzione da sola non motiva.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Sviluppo proprio Livello D - conforme al deck",
+    "niveau_hinweis": "Standard Livello D (Bloom 2)"
+  },
+  {
+    "id": "F123",
+    "icb4_bereich": "People",
+    "icb4_element": "4.5",
+    "icb4_bezeichnung": "Leadership",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Quali tre stili di leadership classici si distinguono nel continuum della leadership (ad es. secondo Tannenbaum/Schmidt)?",
+    "optionen": {
+      "A": "Direttivo, di coaching, delegante",
+      "B": "Autoritario, cooperativo, laissez-faire",
+      "C": "Transazionale, trasformazionale, carismatico",
+      "D": "Orientato al compito, orientato alla relazione, orientato al risultato"
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Il continuum classico distingue tre stili fondamentali: autoritario (il responsabile decide da solo), cooperativo (decisione in dialogo con il team) e laissez-faire (i collaboratori agiscono in gran parte in autonomia). La scelta dello stile adeguato dipende dalla situazione, dal team e dal compito.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Sviluppo proprio Livello D - conforme al deck",
+    "niveau_hinweis": "Standard Livello D (Bloom 2)"
+  },
+  {
+    "id": "OQ010",
+    "icb4_bereich": "People",
+    "icb4_element": "4.5",
+    "icb4_bezeichnung": "Leadership",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Descrivete il modello della leadership situazionale secondo Hersey e Blanchard. Applicatelo al seguente esempio: un ingegnere (5 anni di esperienza) assume per la prima volta un ruolo di responsabile di sottoprogetto. È competente sul piano tecnico, ma insicuro nel nuovo ruolo.",
+    "musterloesung": [
+      "Il modello: lo stile di leadership si orienta al grado di maturità (livello di sviluppo) del collaboratore. Grado di maturità = competenza (saper fare) × impegno (voler fare).",
+      "4 stili di leadership: dirigere/istruire (R1: poca competenza + poco impegno), coaching (R2: un po' di competenza + poco impegno), sostenere (R3: molta competenza + poco impegno), delegare (R4: molta competenza + molto impegno).",
+      "Analisi dell'esempio: competente sul piano tecnico = alta competenza. Insicuro nel nuovo ruolo = basso impegno/coinvolgimento in questa funzione. → Grado di maturità M3.",
+      "Stile di leadership adeguato: sostenere/partecipativo (S3). Il project manager dà poche istruzioni, coinvolge il collaboratore nelle decisioni, dà feedback regolare e lo incoraggia.",
+      "Non adatto: delegare (troppa insicurezza) o dirigere (sottovaluta le capacità)."
+    ],
+    "begruendung": "La leadership situazionale è un modello centrale della competenza ICB 4.0 People 4.5 Leadership.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 5"
+  },
+  {
+    "id": "F035",
+    "icb4_bereich": "People",
+    "icb4_element": "4.6",
+    "icb4_bezeichnung": "Lavoro di squadra",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Quali sono le cinque fasi dello sviluppo del team secondo Tuckman, nell'ordine corretto?",
+    "optionen": {
+      "A": "Storming, Forming, Norming, Performing, Adjourning",
+      "B": "Forming, Norming, Storming, Performing, Adjourning",
+      "C": "Forming, Storming, Norming, Performing, Adjourning",
+      "D": "Planning, Forming, Storming, Performing, Closing"
+    },
+    "richtige_antwort": "C",
+    "begruendung": "Le cinque fasi secondo Tuckman sono: Forming (orientamento), Storming (conflitti), Norming (definizione delle regole), Performing (alte prestazioni), Adjourning (scioglimento). L'ordine è fisso.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Prova d'esame 2"
+  },
+  {
+    "id": "OQ026",
+    "icb4_bereich": "People",
+    "icb4_element": "4.6",
+    "icb4_bezeichnung": "Lavoro di squadra",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Descrivete tre caratteristiche tipiche dei team di progetto ad alte prestazioni (fase di Performing secondo Tuckman) e spiegate come un project manager può favorire queste caratteristiche.",
+    "musterloesung": [
+      "Caratteristica 1 - Alta responsabilità individuale: i membri del team si assumono compiti di propria iniziativa e prendono decisioni decentralizzate. Sviluppo: dare margine di manovra, mostrare fiducia, trattare gli errori come opportunità di apprendimento.",
+      "Caratteristica 2 - Comunicazione aperta e cultura del feedback: i problemi vengono affrontati presto, il feedback è normale. Sviluppo: introdurre retrospettive, richiedere attivamente feedback, gestire in prima persona gli errori in modo aperto.",
+      "Caratteristica 3 - Comprensione condivisa degli obiettivi: tutti sanno per cosa lavora il team e si identificano con l'obiettivo del progetto. Sviluppo: comunicare chiaramente la visione del progetto, celebrare i progressi, favorire un senso di significato.",
+      "Principio: il project manager nella fase di Performing è meno una guida e più un coach e un facilitatore."
+    ],
+    "begruendung": "Lo sviluppo del team è un argomento centrale della ICB 4.0 People 4.6 - la fase di Performing come stato ideale è un argomento d'esame frequente.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 3"
+  },
+  {
+    "id": "F125",
+    "icb4_bereich": "People",
+    "icb4_element": "4.7",
+    "icb4_bezeichnung": "Conflitti e crisi",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Quale delle seguenti affermazioni descrive la differenza tra un conflitto e una crisi nel contesto del progetto?",
+    "optionen": {
+      "A": "I conflitti nascono sempre tra persone, le crisi sempre da problemi tecnici.",
+      "B": "Un conflitto è un contrasto di interessi che può degenerare; una crisi è una minaccia acuta al successo del progetto che richiede un'azione immediata.",
+      "C": "Le crisi sono sempre causate dal committente, i conflitti dal team.",
+      "D": "I conflitti nei progetti sono normali e positivi, le crisi possono essere ignorate."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "I conflitti sono contrasti di interessi che, se non gestiti, degenerano. Una crisi è un disturbo acuto che minaccia direttamente il successo del progetto e richiede una reazione immediata. Entrambi richiedono una gestione strutturata, ma con urgenza diversa.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Sviluppo proprio Livello D",
+    "niveau_hinweis": "Standard Livello D (Bloom 1)"
+  },
+  {
+    "id": "OQ006",
+    "icb4_bereich": "People",
+    "icb4_element": "4.7",
+    "icb4_bezeichnung": "Conflitti e crisi",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Due membri del vostro team (il progettista A e l'ingegnere di progetto B) portano un litigio davanti a voi. A accusa B di aver modificato i suoi risultati di lavoro senza consultarlo. B dice che A non è collaborativo. Descrivete il vostro approccio concreto alla risoluzione del conflitto.",
+    "musterloesung": [
+      "Passo 1: ascoltare entrambe le parti separatamente - in modo oggettivo, senza giudicare. Obiettivo: comprendere entrambe le prospettive.",
+      "Passo 2: moderare un colloquio congiunto - stabilire regole: rimanere oggettivi, lasciare finire di parlare, usare messaggi in prima persona.",
+      "Passo 3: chiarire i fatti - cosa è realmente accaduto? Separare i fatti dalle interpretazioni.",
+      "Passo 4: individuare gli interessi - di cosa ha bisogno A? Di cosa ha bisogno B? Spesso dietro le posizioni si nascondono interessi legittimi.",
+      "Passo 5: elaborare una soluzione condivisa - ad es. accordi chiari sui processi di modifica, chi approva cosa.",
+      "Passo 6: documentare e monitorare l'accordo.",
+      "Principio: non far degenerare i conflitti finché sono risolvibili a livello di team. Escalation solo se necessario."
+    ],
+    "begruendung": "La risoluzione dei conflitti è un'area di competenza pratica (ICB 4.0 People) con alta rilevanza d'esame.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 3"
+  },
+  {
+    "id": "F064",
+    "icb4_bereich": "People",
+    "icb4_element": "4.8",
+    "icb4_bezeichnung": "Versatilità",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Cosa significa versatilità secondo la ICB 4.0 per un project manager?",
+    "optionen": {
+      "A": "La capacità di utilizzare più strumenti software contemporaneamente.",
+      "B": "La capacità di adattare il proprio comportamento in modo flessibile a situazioni, persone e culture diverse.",
+      "C": "La competenza tecnica in più ambiti specialistici contemporaneamente.",
+      "D": "La capacità di dirigere più progetti contemporaneamente."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "La versatilità secondo la ICB 4.0 indica la capacità di adattare il proprio comportamento in base alla situazione: diversi stili di leadership, approcci comunicativi e sensibilità interculturale a seconda del contesto.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 3"
+  },
+  {
+    "id": "F099",
+    "icb4_bereich": "People",
+    "icb4_element": "4.8",
+    "icb4_bezeichnung": "Versatilità",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Perché la versatilità è particolarmente importante per i project manager nella costruzione di macchinari e impianti?",
+    "optionen": {
+      "A": "Perché di norma i project manager devono aver studiato più discipline specialistiche.",
+      "B": "Perché i progetti M&A comprendono tipicamente molte discipline specialistiche, culture e livelli gerarchici diversi, che richiedono approcci differenti.",
+      "C": "Perché la IPMA richiede la versatilità come prova obbligatoria per la certificazione.",
+      "D": "Perché i problemi tecnici impongono sempre approcci di soluzione flessibili."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "I progetti M&A riuniscono meccanici, elettrotecnici, ingegneri del software, addetti agli acquisti e partner esterni. Questo mix richiede approcci diversi di comunicazione, leadership e risoluzione dei problemi.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Sviluppo proprio Livello D",
+    "niveau_hinweis": "Standard Livello D (Bloom 2)"
+  },
+  {
+    "id": "F117",
+    "icb4_bereich": "People",
+    "icb4_element": "4.9",
+    "icb4_bezeichnung": "Negoziazioni",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Un fornitore richiede un aumento di prezzo del 15% per componenti già saldamente pianificati. Quale strategia negoziale è sensata in questo caso?",
+    "optionen": {
+      "A": "Accettare subito, per non perdere il fornitore.",
+      "B": "Rifiutare la richiesta e disdire immediatamente il contratto.",
+      "C": "Verificare la propria BATNA, preparare argomenti oggettivi e offrire un compromesso con contropartite concrete.",
+      "D": "Delegare la decisione all'ufficio acquisti e aspettare."
+    },
+    "richtige_antwort": "C",
+    "begruendung": "Una buona conduzione della negoziazione combina preparazione (BATNA, argomenti), comunicazione oggettiva e l'offerta di alternative. Un'accettazione immediata indebolisce la posizione; un'interruzione immediata mette a rischio la catena di fornitura.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Sviluppo proprio Livello D",
+    "niveau_hinweis": "Standard Livello D (Bloom 2)"
+  },
+  {
+    "id": "OQ019",
+    "icb4_bereich": "People",
+    "icb4_element": "4.9",
+    "icb4_bezeichnung": "Negoziazioni",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "State negoziando con un fornitore un termine di consegna per componenti critici. Il fornitore dice: 'Prima di 10 settimane non è possibile.' Vi servono i pezzi entro 7 settimane. Descrivete il vostro approccio secondo il metodo di Harvard.",
+    "musterloesung": [
+      "Passo 1 - Separare le persone dal problema: rimanere oggettivi, mantenere la relazione con il fornitore, nessuna attribuzione di colpe.",
+      "Passo 2 - Esplorare gli interessi: perché 10 settimane? Carenza di materiale? Problema di capacità? Altri ordini? Capire cosa si nasconde dietro la posizione.",
+      "Passo 3 - Sviluppare opzioni: soluzioni possibili: può arrivare prima una parte della quantità da consegnare? Possiamo aiutare nella produzione (pagamento anticipato, approvvigionamento di materiale)? Esistono alternative per singoli componenti?",
+      "Passo 4 - Utilizzare criteri oggettivi: termine di consegna nel contratto? Quali sono i tempi di consegna usuali di mercato? Quali sono le conseguenze effettive di un termine di 10 settimane?",
+      "Passo 5 - Conoscere la propria BATNA: qual è la mia migliore alternativa se la negoziazione fallisce? Un secondo fornitore? Una consegna parziale?",
+      "Obiettivo: trovare una soluzione win-win - non imporre la posizione, ma soddisfare l'interesse (7 settimane)."
+    ],
+    "begruendung": "La conduzione delle negoziazioni è la competenza People 4.9 e viene spesso richiesta negli esami come caso di studio.",
+    "schwierigkeit": "difficile",
+    "quelle_klausur": "Prova d'esame 3"
+  },
+  {
+    "id": "F101",
+    "icb4_bereich": "People",
+    "icb4_element": "4.10",
+    "icb4_bezeichnung": "Orientamento ai risultati",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Un project manager rispetta scrupolosamente tutti i processi, ma alla fine il risultato del progetto non corrisponde alle aspettative del committente. Cosa dimostra questo esempio?",
+    "optionen": {
+      "A": "Che l'aderenza ai processi è più importante del risultato — il project manager ha fatto tutto correttamente.",
+      "B": "Che l'aderenza ai processi da sola non è orientamento ai risultati — l'obiettivo rimane la soddisfazione del committente riguardo all'oggetto della consegna.",
+      "C": "Che il committente aveva aspettative sbagliate e ne è responsabile.",
+      "D": "Che sarebbero stati più adatti metodi agili."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "L'orientamento ai risultati si distingue dall'aderenza ai processi. I processi sono un mezzo per raggiungere uno scopo. Se il risultato non è corretto, l'obiettivo del progetto è mancato - indipendentemente dal fatto che i processi siano stati seguiti correttamente.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Sviluppo proprio Livello D",
+    "niveau_hinweis": "Standard Livello D (Bloom 2)"
+  },
+  {
+    "id": "OQ029",
+    "icb4_bereich": "People",
+    "icb4_element": "4.10",
+    "icb4_bezeichnung": "Orientamento ai risultati",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Descrivete cosa significa 'orientamento ai risultati' nel senso della ICB 4.0 per un project manager e indicate tre situazioni tipiche in cui questa competenza è richiesta.",
+    "musterloesung": [
+      "L'orientamento ai risultati significa: allineare in modo coerente tutte le attività agli obiettivi di progetto concordati. Rispettare gli accordi, stabilire priorità, ridurre al minimo le distrazioni.",
+      "Situazione 1 - Scope creep: il committente desidera sempre nuove funzionalità aggiuntive senza richiesta di modifica. Orientamento ai risultati: tracciare un confine chiaro, richiedere una richiesta di modifica, rendere trasparenti le ripercussioni su tempi/costi.",
+      "Situazione 2 - Perfezionismo nel team: i membri del team vogliono continuare a migliorare invece di consegnare. Orientamento ai risultati: 'good enough is good enough' - consegnare ciò che è stato concordato; i miglioramenti nella versione successiva.",
+      "Situazione 3 - Pressione dei tempi: il team vuole posticipare la scadenza perché mancano ancora dei dettagli. Orientamento ai risultati: separare i punti critici da quelli 'nice-to-have', rispettare la scadenza, documentare il resto come problemi noti.",
+      "Delimitazione: l'orientamento ai risultati non significa mancanza di riguardo - include un comportamento etico e la cura del team."
+    ],
+    "begruendung": "L'orientamento ai risultati è ICB 4.0 People 4.10 - rilevante come competenza trasversale in molte situazioni d'esame.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 5"
+  },
+  {
+    "id": "F002",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.1",
+    "icb4_bezeichnung": "Progettazione del progetto",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Un'azienda di costruzione di macchinari pianifica lo sviluppo di una nuova linea di produzione. Quale delle seguenti caratteristiche indica che si tratta di un progetto?",
+    "optionen": {
+      "A": "Il compito viene ripetuto mensilmente ed è ben documentato.",
+      "B": "Il compito è temporalmente illimitato e viene svolto da un reparto fisso.",
+      "C": "Il compito è unico, ha obiettivi chiari, una data di conclusione definita e un budget approvato.",
+      "D": "Il compito comprende solo processi standard senza rischi particolari."
+    },
+    "richtige_antwort": "C",
+    "begruendung": "Unicità, obiettivi chiari, data di conclusione definita e budget approvato sono caratteristiche classiche di progetto secondo la ICB 4.0.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Prova d'esame 1"
+  },
+  {
+    "id": "OQ015",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.1",
+    "icb4_bezeichnung": "Progettazione del progetto",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Indicate sei caratteristiche tipiche che contraddistinguono un'iniziativa come 'progetto' e distinguete il concetto da un 'compito di routine'.",
+    "musterloesung": [
+      "Caratteristiche di un progetto: 1) Unicità - nessuna iniziativa identica in precedenza, 2) obiettivo chiaro con oggetti di consegna definiti, 3) limitazione temporale - data di inizio e fine definite, 4) risorse limitate (budget, personale, materiale), 5) complessità e incertezza - non completamente pianificabile, 6) organizzazione di progetto temporanea - team proprio per la durata del progetto.",
+      "Distinzione dal compito di routine: i compiti di routine sono ricorrenti, ben pianificabili, svolti da un reparto fisso e non hanno un prodotto finale definito. Esempio: manutenzione mensile di una macchina = compito di routine.",
+      "Esempio di progetto: sviluppo e messa in servizio di una nuova linea di produzione = unico, temporalmente limitato, obiettivo complesso, team di progetto proprio."
+    ],
+    "begruendung": "La definizione di progetto è conoscenza di base del Livello D e costituisce la base per tutti gli altri argomenti.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Prova d'esame 1"
+  },
+  {
+    "id": "F006",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.2",
+    "icb4_bezeichnung": "Requisiti e obiettivi",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Qual è la differenza essenziale tra un capitolato dei requisiti e un capitolato tecnico di progetto?",
+    "optionen": {
+      "A": "Il capitolato dei requisiti descrive la soluzione tecnica, il capitolato tecnico i requisiti del cliente.",
+      "B": "Il capitolato dei requisiti viene redatto dall'appaltatore, il capitolato tecnico dal committente.",
+      "C": "Il capitolato dei requisiti contiene i requisiti del committente, il capitolato tecnico la descrizione della soluzione dell'appaltatore.",
+      "D": "Capitolato dei requisiti e capitolato tecnico descrivono entrambi la stessa cosa, ma sono pensati per fasi di progetto diverse."
+    },
+    "richtige_antwort": "C",
+    "begruendung": "Il capitolato dei requisiti (URS - User Requirements Specification) viene redatto dal committente e descrive COSA serve. Il capitolato tecnico viene redatto dall'appaltatore e descrive COME vengono attuati i requisiti.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 1"
+  },
+  {
+    "id": "OQ022",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.2",
+    "icb4_bezeichnung": "Requisiti e obiettivi",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Spiegate le cinque possibili relazioni tra obiettivi di progetto e indicate per ciascuna un esempio tratto da un progetto di impianti.",
+    "musterloesung": [
+      "1) Identiche: l'obiettivo A e l'obiettivo B perseguono lo stesso risultato. Esempio: 'consegnare l'impianto entro il 31.12.' e 'messa in servizio entro fine anno' sono identici.",
+      "2) Complementari: gli obiettivi si integrano, il raggiungimento di A aiuta B. Esempio: 'alta stabilità di processo' e 'basso tasso di scarto' - chi raggiunge A raggiunge B più facilmente.",
+      "3) Neutre: gli obiettivi non si influenzano a vicenda. Esempio: 'documentazione in tedesco' e 'termine di consegna 31.12.' - indipendenti l'uno dall'altro.",
+      "4) Concorrenti: il raggiungimento di A ostacola B. Esempio: 'qualità massima' e 'costi minimi' - sono in tensione tra loro.",
+      "5) Antinomici (incompatibili): A e B si escludono a vicenda. Esempio: 'l'impianto deve funzionare a luglio' e 'l'impianto viene consegnato solo a settembre' - impossibile soddisfare entrambi contemporaneamente.",
+      "Conseguenza: gli obiettivi antinomici devono essere riconosciuti e risolti all'inizio del progetto."
+    ],
+    "begruendung": "Le relazioni tra obiettivi sono conoscenza di base per la gestione dei requisiti - ICB 4.0 Practice 5.2.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 1"
+  },
+  {
+    "id": "F007",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.3",
+    "icb4_bezeichnung": "Ambito delle prestazioni e oggetti di consegna",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Cosa si intende per struttura di scomposizione del progetto (Work Breakdown Structure, WBS)?",
+    "optionen": {
+      "A": "Un diagramma a barre che visualizza le scadenze del progetto.",
+      "B": "Una rappresentazione completa e gerarchicamente strutturata di tutti i compiti e gli oggetti di consegna di un progetto.",
+      "C": "Una panoramica dei costi di tutte le fasi del progetto.",
+      "D": "Un diagramma reticolare per rappresentare le dipendenze tra le attività."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "La struttura di scomposizione del progetto (WBS) è la panoramica completa e gerarchicamente strutturata di tutti i sotto-compiti e pacchetti di lavoro. Costituisce la base per la pianificazione di tempi, costi e risorse.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Prova d'esame 1"
+  },
+  {
+    "id": "OQ005",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.3",
+    "icb4_bezeichnung": "Ambito delle prestazioni e oggetti di consegna",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Spiegate la struttura e lo scopo di una struttura di scomposizione del progetto (WBS) e illustrate come costituisce la base per tutte le fasi di pianificazione successive.",
+    "musterloesung": [
+      "Struttura della WBS: suddivisione gerarchica del progetto complessivo in sotto-compiti (TA) e pacchetti di lavoro (AP). Tipico: 3-4 livelli gerarchici. Codifica ad es. decimale: 1.0 progetto, 1.1 sotto-compito, 1.1.1 pacchetto di lavoro.",
+      "Scopo: rappresentazione completa dell'intero ambito delle prestazioni - cosa deve essere fatto? Base: capitolato dei requisiti/capitolato tecnico.",
+      "Base per la pianificazione dei tempi: dai pacchetti di lavoro vengono derivate le attività nel diagramma reticolare/di Gantt.",
+      "Base per la pianificazione dei costi: a ogni pacchetto di lavoro vengono assegnati impegni e costi → la somma dà il budget del progetto.",
+      "Base per la pianificazione delle risorse: dalle descrizioni dei pacchetti di lavoro vengono derivati i fabbisogni di risorse (personale, materiale).",
+      "Base per le responsabilità: la matrice RACI si basa sui pacchetti di lavoro della WBS.",
+      "Principio: ciò che non è nella WBS non viene fatto e non viene pagato."
+    ],
+    "begruendung": "La WBS è lo strumento centrale di pianificazione e il punto di partenza di tutta la pianificazione successiva - argomento obbligatorio del Livello D.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 1"
+  },
+  {
+    "id": "F010",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.4",
+    "icb4_bezeichnung": "Tempistiche e scadenze",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Cosa indica il percorso critico in un diagramma reticolare?",
+    "optionen": {
+      "A": "La sezione più costosa del progetto.",
+      "B": "La sequenza più lunga di attività senza riserva, che determina la durata del progetto.",
+      "C": "Il percorso con il maggior numero di dipendenze tra i pacchetti di lavoro.",
+      "D": "Il percorso con i requisiti di risorse più elevati."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Il percorso critico è la catena di attività più lunga senza riserva. Un ritardo sul percorso critico allunga direttamente l'intero progetto.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 2"
+  },
+  {
+    "id": "OQ032",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.4",
+    "icb4_bezeichnung": "Tempistiche e scadenze",
+    "bloom_niveau": 2,
+    "typ": "open_rechnung",
+    "frage": "Per la messa in servizio di un impianto di saldatura robotizzato sono disponibili le seguenti stime temporali: ottimistica 10 giorni, più probabile 15 giorni, pessimistica 26 giorni. Calcolate il valore atteso PERT e la deviazione standard. Cosa significa un'elevata deviazione standard per la pianificazione dei tempi?",
+    "gegeben": {
+      "a_optimistisch": 10,
+      "m_wahrscheinlichst": 15,
+      "b_pessimistisch": 26
+    },
+    "loesung_schritte": [
+      "Passo 1: valore atteso PERT: E = (a + 4m + b) / 6",
+      "Passo 2: E = (10 + 4×15 + 26) / 6 = (10 + 60 + 26) / 6 = 96 / 6",
+      "Passo 3: E = 16 giorni",
+      "Passo 4: deviazione standard: σ = (b - a) / 6",
+      "Passo 5: σ = (26 - 10) / 6 = 16 / 6 ≈ 2,67 giorni",
+      "Passo 6: interpretazione: σ ≈ 2,67 giorni indica un'incertezza maggiore — pianificare una riserva corrispondente"
+    ],
+    "musterloesung": [
+      "E = (10 + 60 + 26) / 6 = 96 / 6 = 16 giorni",
+      "σ = (26 - 10) / 6 = 16 / 6 ≈ 2,67 giorni",
+      "Interpretazione: una deviazione standard di 2,67 giorni mostra un'incertezza di stima rilevante. Per la pianificazione dei tempi questo significa: prevedere un margine di riserva (ad es. 1-2 sigma), preparare misure di rischio e non comunicare la scadenza come fissa."
+    ],
+    "begruendung": "La deviazione standard quantifica l'incertezza di stima. Valori elevati (rispetto al valore atteso) richiedono più riserva temporale e aumentano la necessità di misure di rischio.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Sviluppo proprio Livello D",
+    "niveau_hinweis": "Standard Livello D (Bloom 2)"
+  },
+  {
+    "id": "F056",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.5",
+    "icb4_bezeichnung": "Organizzazione, informazione e documentazione",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Quali contenuti minimi dovrebbe contenere un rapporto di stato del progetto?",
+    "optionen": {
+      "A": "Solo i pacchetti di lavoro conclusi dell'ultimo periodo.",
+      "B": "Stato attuale del progetto (tempi, costi, prestazioni), compiti svolti, punti aperti, prossimi passi e rischi.",
+      "C": "Esclusivamente gli scostamenti di costi e tempi.",
+      "D": "Solo le misure per la riduzione dei rischi."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Un rapporto di stato completo informa su: stato attuale relativo a tempi/costi/prestazioni, cosa è stato fatto dall'ultimo rapporto, punti aperti, rischi e i prossimi passi previsti.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 1"
+  },
+  {
+    "id": "OQ021",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.5",
+    "icb4_bezeichnung": "Organizzazione, informazione e documentazione",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Cos'è una matrice RACI e come viene creata? Create un esempio per tre compiti di un progetto di impianti con quattro ruoli.",
+    "musterloesung": [
+      "RACI sta per: R = Responsible (esegue il compito), A = Accountable (ha la responsabilità complessiva, uno solo per compito), C = Consulted (viene consultato, comunicazione bidirezionale), I = Informed (viene informato, comunicazione unidirezionale).",
+      "Creazione: 1) compiti/pacchetti di lavoro in righe, 2) ruoli/persone in colonne, 3) inserire le lettere nelle celle, 4) verificare: ogni riga ha esattamente una A.",
+      "Esempio (progetto di impianti):",
+      "| Compito | Project manager | Progettista | Acquisti | Committente |",
+      "| Redigere il capitolato dei requisiti | A | C | I | R |",
+      "| Approvvigionare i componenti | I | C | R | A |",
+      "| Messa in servizio | A | R | I | C |",
+      "Regola: ogni riga necessita esattamente una A. Più R sono possibili. Troppe A = mancanza di chiarezza nelle responsabilità."
+    ],
+    "begruendung": "Le matrici RACI sono uno strumento pratico per le responsabilità - argomento obbligatorio della ICB 4.0 Practice 5.5.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Prova d'esame 2"
+  },
+  {
+    "id": "F015",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.6",
+    "icb4_bezeichnung": "Qualità",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Cosa rappresenta il ciclo di Deming (PDCA)?",
+    "optionen": {
+      "A": "Plan, Design, Control, Act",
+      "B": "Plan, Do, Check, Act",
+      "C": "Prepare, Deploy, Check, Adjust",
+      "D": "Plan, Define, Control, Adjust"
+    },
+    "richtige_antwort": "B",
+    "begruendung": "PDCA sta per Plan (pianificare), Do (eseguire), Check (verificare), Act (agire/migliorare). Il ciclo di Deming è il modello fondamentale del processo di miglioramento continuo.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Prova d'esame 1"
+  },
+  {
+    "id": "OQ011",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.6",
+    "icb4_bezeichnung": "Qualità",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Spiegate il ciclo di Deming (PDCA) e mostrate, sulla base di un esempio pratico concreto tratto dalla costruzione di macchinari e impianti, come viene utilizzato per il miglioramento della qualità.",
+    "musterloesung": [
+      "PDCA sta per: Plan (pianificare), Do (eseguire), Check (verificare), Act (agire/migliorare).",
+      "Plan: analizzare il problema, identificare le cause, pianificare le misure. Esempio: alto tasso di scarto per il componente X → analisi delle cause con il diagramma di Ishikawa → misura: adeguare i parametri di processo.",
+      "Do: attuare le misure su piccola scala. Esempio: testare i nuovi parametri di processo in un turno.",
+      "Check: misurare i risultati e confrontarli con il piano. Esempio: tasso di scarto sceso dal 5% all'1,5%.",
+      "Act: standardizzare e diffondere le misure di successo. Esempio: introdurre i nuovi parametri in tutti i turni, documentarli nelle istruzioni di lavoro.",
+      "Dopodiché il ciclo ricomincia - miglioramento continuo (KVP)."
+    ],
+    "begruendung": "PDCA/Deming è un argomento obbligatorio della IPMA Livello D (5.6 Qualità) e frequente contenuto d'esame.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Prova d'esame 1"
+  },
+  {
+    "id": "F118",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.7",
+    "icb4_bezeichnung": "Costi e finanziamento",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Cosa si intende per 'baseline dei costi' (Cost Baseline) nella pianificazione del progetto?",
+    "optionen": {
+      "A": "La somma di tutti i costi di progetto sostenuti finora.",
+      "B": "Il piano dei costi di progetto approvato, rispetto al quale viene misurato il consumo effettivo.",
+      "C": "Il quadro massimo di costi che l'azienda mette complessivamente a disposizione per i progetti.",
+      "D": "Il preventivo del fornitore per le prestazioni esterne."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "La baseline dei costi è il piano dei costi formalmente approvato (distribuito nel tempo), che funge da riferimento per il controllo dei costi. Gli scostamenti vengono misurati rispetto a questa baseline.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Sviluppo proprio Livello D",
+    "niveau_hinweis": "Standard Livello D (Bloom 1)"
+  },
+  {
+    "id": "OQ009",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.7",
+    "icb4_bezeichnung": "Costi e finanziamento",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Spiegate l'Earned Value Analysis (EVA). Indicate i tre indicatori di base, spiegate il calcolo dello scostamento di costi e di tempi e interpretate i seguenti valori: BCWS=100, BCWP=80, ACWP=90.",
+    "musterloesung": [
+      "Tre indicatori di base: BCWS (Budgeted Cost of Work Scheduled) = valore pianificato, BCWP (Budgeted Cost of Work Performed) = valore acquisito / valore di completamento, ACWP (Actual Cost of Work Performed) = costi effettivi.",
+      "Scostamento di costi (CV): CV = BCWP - ACWP = 80 - 90 = -10 → negativo = oltre il budget (superamento dei costi).",
+      "Scostamento di tempi (SV): SV = BCWP - BCWS = 80 - 100 = -20 → negativo = in ritardo rispetto alla pianificazione (ritardo nei tempi).",
+      "Interpretazione: il progetto ha realizzato meno di quanto pianificato (solo l'80% del valore pianificato raggiunto) e per questo ha speso più di quanto corrisponda alla prestazione realizzata. Necessità d'azione: analisi delle cause e contromisure.",
+      "Indice di costo (CPI): CPI = BCWP/ACWP = 80/90 = 0,89 → ogni euro investito genera solo 89 centesimi di prestazione."
+    ],
+    "begruendung": "L'EVA è un argomento d'esame frequente nella IPMA Livello D, spesso combinato con esercizi di calcolo.",
+    "schwierigkeit": "difficile",
+    "quelle_klausur": "Prova d'esame 2"
+  },
+  {
+    "id": "F120",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.8",
+    "icb4_bezeichnung": "Risorse",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "In un progetto di montaggio sono necessari tre montatori, ma ne sono disponibili solo due. Il percorso critico non ha riserva. Qual è l'approccio corretto?",
+    "optionen": {
+      "A": "Avviare il progetto senza adattamenti e pianificare gli straordinari.",
+      "B": "Adattare la pianificazione dei tempi, verificare risorse esterne oppure informare il committente sui rischi di ritardo.",
+      "C": "Posticipare l'inizio del progetto senza consultazione.",
+      "D": "Ridurre il numero di attività in modo che due montatori siano sufficienti."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "La scarsità di risorse sul percorso critico mette direttamente a rischio la scadenza finale. Le opzioni d'azione sono: adattare la pianificazione dei tempi, procurare risorse esterne oppure informare proattivamente il committente. Il silenzio sarebbe un errore di gestione.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Sviluppo proprio Livello D",
+    "niveau_hinweis": "Standard Livello D (Bloom 2)"
+  },
+  {
+    "id": "OQ016",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.8",
+    "icb4_bezeichnung": "Risorse",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Nel vostro progetto di impianti, durante il bilanciamento delle risorse constatate che il vostro progettista più esperto è impegnato al 180% nelle settimane 8-10. Descrivete la vostra analisi e tre possibili approcci di soluzione.",
+    "musterloesung": [
+      "Analisi: quali attività causano il sovraccarico? Queste attività hanno riserva? Almeno una si trova sul percorso critico?",
+      "Soluzione 1 - Spostare le attività: spostare le attività non critiche (con riserva) fuori dalle settimane 8-10 → allentare il conflitto di risorse senza perdita di tempo.",
+      "Soluzione 2 - Ridistribuire i compiti: verificare quali compiti del progettista possono essere assunti da altri membri del team → richiede qualificazione o acquisto esterno.",
+      "Soluzione 3 - Coinvolgere una risorsa esterna: ingaggiare a breve termine un progettista esterno → aumenta i costi, ma risolve il problema di capacità.",
+      "Se nessuna opzione aiuta: negoziazione dei tempi con il committente - comunicare in modo trasparente che la carenza di risorse causa un ritardo nei tempi.",
+      "Aspetto importante: considerare sempre le conseguenze per il triangolo magico (tempi, costi, prestazioni)."
+    ],
+    "begruendung": "La pianificazione e l'ottimizzazione delle risorse sono un argomento pratico centrale dell'esame IPMA Livello D.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 2"
+  },
+  {
+    "id": "F126",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.9",
+    "icb4_bezeichnung": "Approvvigionamento e partnership",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Nell'approvvigionamento di prestazioni esterne in un progetto di costruzione di impianti, il tipo di contratto è decisivo per la distribuzione del rischio tra committente e appaltatore. In cosa si differenziano il contratto a prezzo fisso e il contratto a consuntivo?",
+    "optionen": {
+      "A": "Nel contratto a prezzo fisso il prezzo viene fissato in anticipo (il rischio di costi aggiuntivi ricade sull'appaltatore), nel contratto a consuntivo si fattura in base alla prestazione effettivamente resa (il rischio ricade sul committente).",
+      "B": "I contratti a prezzo fisso sono ammessi solo per le forniture di materiale, i contratti a consuntivo solo per i servizi.",
+      "C": "Nel contratto a prezzo fisso il rischio di costo ricade sul committente, nel contratto a consuntivo sull'appaltatore.",
+      "D": "I contratti a consuntivo possono essere utilizzati nell'UE solo con committenti pubblici."
+    },
+    "richtige_antwort": "A",
+    "begruendung": "Prezzo fisso e consuntivo sono le due forme fondamentali di remunerazione. Con il prezzo fisso il committente conosce in anticipo i costi complessivi, il rischio di costi aggiuntivi ricade sull'appaltatore. Nel contratto a consuntivo (ad es. secondo tariffe orarie o giornaliere) il committente paga l'impegno effettivo e ne sostiene quindi il rischio di costo. Quale forma sia adeguata dipende dalla chiarezza delle specifiche e dalla propensione al rischio.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Sviluppo proprio Livello D - conforme al deck",
+    "niveau_hinweis": "Standard Livello D (Bloom 2)"
+  },
+  {
+    "id": "OQ018",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.9",
+    "icb4_bezeichnung": "Approvvigionamento e partnership",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Spiegate le differenze tra contratto di prestazione d'opera intellettuale, contratto d'appalto e contratto di compravendita nel contesto del progetto e indicate per ciascuno un esempio di applicazione tratto dalla costruzione di macchinari e impianti.",
+    "musterloesung": [
+      "Contratto di compravendita: trasferimento di un bene contro un prezzo d'acquisto. Esempio: acquisto di una pompa idraulica standard. Nessun obbligo di produzione, solo consegna.",
+      "Contratto di prestazione d'opera intellettuale: fornitura di una prestazione (attività), non di un risultato. Esempio: assegnazione di ore di ingegneria a una società di consulenza. L'appaltatore deve ore di lavoro, non un prodotto finito.",
+      "Contratto d'appalto: realizzazione di un'opera con obbligo di risultato. Esempio: incarico a un fornitore per lo sviluppo e la consegna di un impianto di controllo personalizzato per il cliente. L'appaltatore deve l'opera funzionante.",
+      "Aspetto importante per i progetti: il contratto d'appalto genera diritti di garanzia (responsabilità per vizi). Nel contratto di prestazione d'opera intellettuale il committente sostiene il rischio del risultato.",
+      "Pratica: nella costruzione di impianti si utilizza per lo più il contratto d'appalto per il progetto complessivo, contratti di prestazione d'opera intellettuale per risorse di consulenza/ingegneria."
+    ],
+    "begruendung": "I tipi di contratto fanno parte della ICB 4.0 Practice 5.9 Approvvigionamento - importanti per i progetti M&A.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 5"
+  },
+  {
+    "id": "F059",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.10",
+    "icb4_bezeichnung": "Pianificazione e controllo",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Qual è la differenza tra piano, previsto ed effettivo nel controllo di progetto?",
+    "optionen": {
+      "A": "Piano, previsto ed effettivo sono denominazioni diverse per lo stesso valore.",
+      "B": "Piano = baseline originaria; previsto = piano aggiornato tenendo conto delle modifiche approvate; effettivo = stato effettivo reale.",
+      "C": "Piano = stato effettivo; previsto = pianificazione futura; effettivo = valori passati.",
+      "D": "Previsto ed effettivo sono identici, il piano è la strategia sovraordinata."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Nel controllo di progetto: piano = pianificazione originaria (baseline); previsto = piano aggiornato con le modifiche approvate (a una data di riferimento); effettivo = valori effettivamente raggiunti. I confronti mostrano gli scostamenti.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 1"
+  },
+  {
+    "id": "OQ037",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.10",
+    "icb4_bezeichnung": "Pianificazione e controllo",
+    "bloom_niveau": 2,
+    "typ": "open_rechnung",
+    "frage": "Un impianto di trasporto viene realizzato nell'ambito di un progetto di costruzione di impianti e monitorato con l'Earned Value Analysis. Alla data di riferimento a metà progetto sono disponibili i seguenti valori: valore pianificato (PV) = 400.000 €, Earned Value (EV) = 320.000 €, costi effettivi (AC) = 360.000 €. Calcolate lo scostamento di pianificazione (SV), lo scostamento di costo (CV), lo Schedule Performance Index (SPI) e il Cost Performance Index (CPI). Interpretate ciascuno dei quattro risultati rispetto allo stato del progetto.",
+    "gegeben": {
+      "PV": 400000,
+      "EV": 320000,
+      "AC": 360000
+    },
+    "loesung_schritte": [
+      "Passo 1: scostamento di pianificazione SV = EV - PV = 320.000 - 400.000 = -80.000 €",
+      "Passo 2: scostamento di costo CV = EV - AC = 320.000 - 360.000 = -40.000 €",
+      "Passo 3: Schedule Performance Index SPI = EV / PV = 320.000 / 400.000 = 0,80",
+      "Passo 4: Cost Performance Index CPI = EV / AC = 320.000 / 360.000 ≈ 0,89",
+      "Passo 5: interpretazione SV negativo -> ritardo nei tempi (80.000 € realizzati in meno rispetto al pianificato)",
+      "Passo 6: interpretazione CV negativo -> superamento dei costi (40.000 € più costoso rispetto al valore realizzato)",
+      "Passo 7: interpretazione SPI = 0,80 -> il 20% in ritardo rispetto alla pianificazione",
+      "Passo 8: interpretazione CPI ≈ 0,89 -> per ogni euro speso vengono realizzati solo 89 centesimi di prestazione"
+    ],
+    "musterloesung": [
+      "SV = 320.000 - 400.000 = -80.000 € -> ritardo nei tempi",
+      "CV = 320.000 - 360.000 = -40.000 € -> superamento dei costi",
+      "SPI = 320.000 / 400.000 = 0,80 -> il progetto è in ritardo del 20% rispetto alla pianificazione",
+      "CPI = 320.000 / 360.000 ≈ 0,89 -> efficienza dei costi sotto il piano (11% più costoso)",
+      "Quadro complessivo: entrambi gli indici < 1, il progetto è in ritardo sia sui tempi sia sui costi. Sono necessarie misure di controllo (verificare le risorse, mettere in discussione lo scope, escalation al comitato direttivo)."
+    ],
+    "begruendung": "I quattro indicatori dell'EVA costituiscono il quadro standard per valutare lo stato del progetto a livello di costi e tempi. Un quadro completo si ottiene solo quando tutti e quattro vengono interpretati — singoli valori senza contesto sono fuorvianti.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Sviluppo proprio Livello D - conforme al deck",
+    "niveau_hinweis": "Standard Livello D (Bloom 2)"
+  },
+  {
+    "id": "F024",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.11",
+    "icb4_bezeichnung": "Opportunità e rischi",
+    "bloom_niveau": 1,
+    "typ": "single_choice",
+    "frage": "Come si calcola il valore di rischio (Risk Score) nell'analisi qualitativa dei rischi?",
+    "optionen": {
+      "A": "Valore di rischio = entità del danno + probabilità di accadimento",
+      "B": "Valore di rischio = probabilità di accadimento × entità del danno",
+      "C": "Valore di rischio = entità del danno ÷ budget disponibile",
+      "D": "Valore di rischio = numero dei rischi × durata del progetto"
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Il valore di rischio si ottiene moltiplicando la probabilità di accadimento per l'entità del danno. I rischi con valore elevato richiedono contromisure prioritarie.",
+    "schwierigkeit": "facile",
+    "quelle_klausur": "Prova d'esame 1"
+  },
+  {
+    "id": "OQ002",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.11",
+    "icb4_bezeichnung": "Opportunità e rischi",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Descrivete il processo completo di gestione del rischio per un progetto di impianti con un volume di 2 milioni di euro. Indicate per ogni fase una misura concreta e un esempio di rischio pratico.",
+    "musterloesung": [
+      "Passo 1 - Identificazione: brainstorming, liste di controllo, interviste agli esperti → esempio di rischio: 'il fornitore chiave per i componenti idraulici consegna con 4 settimane di ritardo.'",
+      "Passo 2 - Analisi: valutare probabilità di accadimento ed entità del danno → probabilità: 30%, danno: 60.000 €, → valore di rischio: 18.000 €.",
+      "Passo 3 - Sviluppare misure: scegliere una strategia per ogni rischio rilevante (evitare, ridurre, trasferire, accettare) → in questo caso: qualificare un secondo fornitore (riduzione).",
+      "Passo 4 - Monitorare e controllare: aggiornare regolarmente i rischi nel registro dei rischi, includere nuovi rischi, spuntare le misure completate.",
+      "Il registro dei rischi contiene: ID del rischio, descrizione, probabilità, impatto, valore di rischio, misura, responsabile, stato."
+    ],
+    "begruendung": "Il processo completo di gestione del rischio è un argomento centrale dell'esame IPMA Livello D e viene spesso proposto come domanda aperta.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 1"
+  },
+  {
+    "id": "F076",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.12",
+    "icb4_bezeichnung": "Stakeholder",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Quali sono i tipici passi della gestione degli stakeholder nell'ordine corretto?",
+    "optionen": {
+      "A": "Analizzare, identificare, pianificare le misure, attuare, monitorare",
+      "B": "Identificare, analizzare, pianificare misure/strategie, attuare, monitorare (monitoraggio)",
+      "C": "Comunicare, analizzare, identificare, attuare le misure, concludere",
+      "D": "Pianificare, identificare, valutare, comunicare, concludere"
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Il processo di gestione degli stakeholder: 1. identificare (chi è coinvolto?), 2. analizzare (potere/interesse/atteggiamento), 3. sviluppare strategie/misure, 4. attuare, 5. monitorare e adattare.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 2"
+  },
+  {
+    "id": "OQ004",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.12",
+    "icb4_bezeichnung": "Stakeholder",
+    "bloom_niveau": 3,
+    "typ": "open",
+    "frage": "Per un progetto di ristrutturazione in una sala di produzione conducete un'analisi degli stakeholder. Descrivete l'approccio passo per passo e indicate per ogni passo un esempio pratico concreto.",
+    "musterloesung": [
+      "Passo 1 - Identificazione: rilevare tutte le persone/gruppi coinvolti o che possono influenzare il progetto → esempi: direzione della produzione, consiglio del personale, operatori dell'impianto, fornitori esterni, TÜV.",
+      "Passo 2 - Analisi: valutare per ogni stakeholder potere/influenza e interesse/atteggiamento → ad es. consiglio del personale: alto potere, atteggiamento negativo (timore di perdita del posto di lavoro).",
+      "Passo 3 - Definire la strategia: scegliere la strategia in base alla posizione nel portafoglio stakeholder → consiglio del personale: coinvolgere in modo partecipativo, informare precocemente, prendere sul serio le preoccupazioni.",
+      "Passo 4 - Piano delle misure: chi fa cosa entro quando? → ad es. incontro informativo mensile con il consiglio del personale a partire dal primo mese di progetto.",
+      "Passo 5 - Monitoraggio: verificare regolarmente se gli atteggiamenti sono cambiati, adattare le misure."
+    ],
+    "begruendung": "La gestione degli stakeholder è un elemento centrale della ICB 4.0 e un contenuto d'esame ricorrente.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 2"
+  },
+  {
+    "id": "F069",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.13",
+    "icb4_bezeichnung": "Cambiamento e trasformazione",
+    "bloom_niveau": 2,
+    "typ": "single_choice",
+    "frage": "Quale affermazione sul change management nei progetti è corretta?",
+    "optionen": {
+      "A": "Il change management è rilevante solo nei progetti IT.",
+      "B": "Il change management comprende tutte le misure che assicurano che le persone coinvolte comprendano, accettino e contribuiscano attivamente al cambiamento.",
+      "C": "Il change management descrive esclusivamente la gestione formale delle richieste di modifica del progetto.",
+      "D": "Il change management è compito del reparto risorse umane, non del project manager."
+    },
+    "richtige_antwort": "B",
+    "begruendung": "Il change management affronta il 'fattore umano' nei cambiamenti: come vengono informati, coinvolti, resi capaci i soggetti interessati? L'obiettivo è l'accettazione e il successo dell'attuazione - molto più della semplice gestione delle richieste di modifica.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 5"
+  },
+  {
+    "id": "OQ020",
+    "icb4_bereich": "Practice",
+    "icb4_element": "5.13",
+    "icb4_bezeichnung": "Cambiamento e trasformazione",
+    "bloom_niveau": 2,
+    "typ": "open",
+    "frage": "Spiegate il modello a 3 fasi di Kurt Lewin e descrivete come può essere applicato a un progetto di digitalizzazione in un'azienda di costruzione di macchinari.",
+    "musterloesung": [
+      "Fase 1 - Scongelamento (Unfreezing): creare la disponibilità al cambiamento - mettere in discussione le strutture e le abitudini esistenti. Applicazione: informare i collaboratori sulla necessità della digitalizzazione, analizzare criticamente lo status quo, comunicare l'urgenza.",
+      "Fase 2 - Movimento/cambiamento (Moving): attuare il cambiamento - introdurre nuovi processi, sistemi, comportamenti. Applicazione: introdurre un nuovo software, formare i collaboratori, adattare i processi, avviare progetti pilota.",
+      "Fase 3 - Ricongelamento (Refreezing): stabilizzare e ancorare in modo duraturo le nuove strutture. Applicazione: integrare i nuovi processi negli standard e nelle descrizioni delle mansioni, rendere visibili i successi, effettuare i lessons learned.",
+      "Importante: la fase di 'scongelamento' viene spesso sottovalutata nella pratica - chi ignora le resistenze fallisce nella fase 2.",
+      "Limiti del modello: nell'odierno mondo VUCA i cambiamenti non sono sequenziali - il modello è più adatto a trasformazioni pianificabili."
+    ],
+    "begruendung": "I modelli di change management sono un argomento obbligatorio della ICB 4.0 Practice 5.13.",
+    "schwierigkeit": "medio",
+    "quelle_klausur": "Prova d'esame 5"
+  }
+]
